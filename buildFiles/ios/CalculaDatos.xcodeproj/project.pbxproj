@@ -39,11 +39,11 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
-		5E2CFEA1DC4C409199C4A003 /* SocialSharing.m in Sources */ = {isa = PBXBuildFile; fileRef = 007A5F11783C4DBE86087EBB /* SocialSharing.m */; };
-		8BD9949DC9E546678DBFBF83 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0BB12B00FCC462EA0A5AA5B /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		4F1A5A3701554CD89EC0F84B /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9719FFFF36CC4F568AA6207F /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		BB99932BBB764FC8920AFD56 /* SQLitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 024EDA8073244F6D8CC4601F /* SQLitePlugin.m */; };
-		B498EBFA979D491BBF713DE3 /* sqlite3.c in Resources */ = {isa = PBXBuildFile; fileRef = AC23A706E9E74E0FAC40A3D7 /* sqlite3.c */; };
+		21317C64A3E2418F99D581E1 /* SocialSharing.m in Sources */ = {isa = PBXBuildFile; fileRef = 41770C9D19124425A6EE0E7D /* SocialSharing.m */; };
+		DE689623A76248B5ACBA32C3 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 552792418E83417F8FF7FE60 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		EDA79A6DA77245BCB259BACD /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA736759E10842EB8BE35024 /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		9E3733320E5D4C2AA0ED2185 /* SQLitePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0DA85A4FAD44D49101C1AA /* SQLitePlugin.m */; };
+		046DF00678184174B5E56601 /* sqlite3.c in Resources */ = {isa = PBXBuildFile; fileRef = 3C9398A65A814E09B5B7ACC2 /* sqlite3.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,14 +109,14 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "CalculaDatos/config.xml"; sourceTree = "<group>"; };
-		007A5F11783C4DBE86087EBB /* SocialSharing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SocialSharing.m"; path = "cordova-plugin-x-socialsharing/SocialSharing.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		72CF4F9D3AA249D690F942BE /* SocialSharing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SocialSharing.h"; path = "cordova-plugin-x-socialsharing/SocialSharing.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		A0BB12B00FCC462EA0A5AA5B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Social.framework"; path = "System/Library/Frameworks/Social.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		9719FFFF36CC4F568AA6207F /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
-		024EDA8073244F6D8CC4601F /* SQLitePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SQLitePlugin.m"; path = "cordova-sqlite-storage/SQLitePlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		AC23A706E9E74E0FAC40A3D7 /* sqlite3.c */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "sqlite3.c"; path = "cordova-sqlite-storage/sqlite3.c"; sourceTree = "<group>"; fileEncoding = 4; };
-		78DD4551BF9046A6B9451E8F /* SQLitePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SQLitePlugin.h"; path = "cordova-sqlite-storage/SQLitePlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		B004CD3FAA6F4C3DA9062714 /* sqlite3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "sqlite3.h"; path = "cordova-sqlite-storage/sqlite3.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		41770C9D19124425A6EE0E7D /* SocialSharing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SocialSharing.m"; path = "cordova-plugin-x-socialsharing/SocialSharing.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		569A459AB462434DB6FDF8F4 /* SocialSharing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SocialSharing.h"; path = "cordova-plugin-x-socialsharing/SocialSharing.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		552792418E83417F8FF7FE60 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Social.framework"; path = "System/Library/Frameworks/Social.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		DA736759E10842EB8BE35024 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		DF0DA85A4FAD44D49101C1AA /* SQLitePlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SQLitePlugin.m"; path = "cordova-sqlite-storage/SQLitePlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		3C9398A65A814E09B5B7ACC2 /* sqlite3.c */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "sqlite3.c"; path = "cordova-sqlite-storage/sqlite3.c"; sourceTree = "<group>"; fileEncoding = 4; };
+		5DDB848502AA4CD2A1145C85 /* SQLitePlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SQLitePlugin.h"; path = "cordova-sqlite-storage/SQLitePlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		E9F0ACCCCEE748ADA8317147 /* sqlite3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "sqlite3.h"; path = "cordova-sqlite-storage/sqlite3.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,8 +128,8 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
-				8BD9949DC9E546678DBFBF83 /* Social.framework in Frameworks */,
-				4F1A5A3701554CD89EC0F84B /* MessageUI.framework in Frameworks */,
+				DE689623A76248B5ACBA32C3 /* Social.framework in Frameworks */,
+				EDA79A6DA77245BCB259BACD /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,8 +202,8 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
-				A0BB12B00FCC462EA0A5AA5B /* Social.framework */,
-				9719FFFF36CC4F568AA6207F /* MessageUI.framework */,
+				552792418E83417F8FF7FE60 /* Social.framework */,
+				DA736759E10842EB8BE35024 /* MessageUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -219,12 +219,12 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				007A5F11783C4DBE86087EBB /* SocialSharing.m */,
-				72CF4F9D3AA249D690F942BE /* SocialSharing.h */,
-				024EDA8073244F6D8CC4601F /* SQLitePlugin.m */,
-				AC23A706E9E74E0FAC40A3D7 /* sqlite3.c */,
-				78DD4551BF9046A6B9451E8F /* SQLitePlugin.h */,
-				B004CD3FAA6F4C3DA9062714 /* sqlite3.h */,
+				41770C9D19124425A6EE0E7D /* SocialSharing.m */,
+				569A459AB462434DB6FDF8F4 /* SocialSharing.h */,
+				DF0DA85A4FAD44D49101C1AA /* SQLitePlugin.m */,
+				3C9398A65A814E09B5B7ACC2 /* sqlite3.c */,
+				5DDB848502AA4CD2A1145C85 /* SQLitePlugin.h */,
+				E9F0ACCCCEE748ADA8317147 /* sqlite3.h */,
 			);
 			name = Plugins;
 			path = "CalculaDatos/Plugins";
@@ -409,9 +409,9 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
-				5E2CFEA1DC4C409199C4A003 /* SocialSharing.m in Sources */,
-				BB99932BBB764FC8920AFD56 /* SQLitePlugin.m in Sources */,
-				B498EBFA979D491BBF713DE3 /* sqlite3.c in Resources */,
+				21317C64A3E2418F99D581E1 /* SocialSharing.m in Sources */,
+				9E3733320E5D4C2AA0ED2185 /* SQLitePlugin.m in Sources */,
+				046DF00678184174B5E56601 /* sqlite3.c in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
