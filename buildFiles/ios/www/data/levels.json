@@ -1,0 +1,62 @@
+[
+	{
+	    "id": 0,
+	    "title": "Un largo camino apenas comienza.",
+	    "level": "initiation",
+	    "text": "felicidades has resuelto tu primer reto.",
+	    "description": "Cada que avances de nivel, te lo haremos saber.",
+	    "scoreMin": 0,
+	    "scoreMax": 80,
+	    "img" : "cup.jpg"
+	 },
+	{
+	    "id": 1,
+	    "title": "¡Un gran logro, tu nivel ha cambiado!",
+	    "level": "apprentice",
+	    "text": "ahora eres un Aprendiz.",
+	    "description":"El aprendiz  es aquel titular que cuenta con pocos conocimientos sobre el tema de datos personales, una de sus características más importanes es que cuenta con la actitud y  el entusiasmo por aprender y profundizar en el tema.",
+	    "scoreMin": 81,
+	    "scoreMax": 210,
+	    "img" : "aprendiz.png"
+	 },
+	 {
+	    "id": 2,
+	    "title": "¡Eres sorprendente, tu nivel ha cambiado!",
+	    "level": "citizen",
+	    "text": "ahora eres un Ciudadano Consciente.",
+	    "description":"El ciudadano conciente es aquel titular que conoce los temas básicos sobre protección de datos personales, sabe o ha ejercido sus derechos ARCO,  apoya y asesora a los aprendices a conocer más sobre como deben proteger sus datos personales, una de sus principales caracterísiticas es la búsqueda constante de nuevo conocimiento en la materia. ",
+	    "scoreMin": 211,
+	    "scoreMax": 350,
+	    "img" : "ciudadano.png"
+	 },
+	 {
+	    "id": 3,
+	    "title": "¡Estas imparable, tu nivel ha cambiado!",
+	    "level": "agent",
+	    "text": "ahora eres un Agente del INAI.",
+	    "description": "El agente del INAI cuenta con sólidos conocimientos en la materia, asiste a diversos eventos que le permiten que su nivel de conocimientos sea avanzado, además conoce sobre el marco legal internacional y nacional sobre el tema de datos personales. Una de sus principales caracterísiticas es su nivel de especialización y compromiso en mejorar la protección de datos personales en México.",
+	    "scoreMin": 351,
+	    "scoreMax": 525,
+	    "img" : "agente.png"
+	 },
+	 {
+	    "id": 4,
+	    "title": "¡Lo has logrado!",
+	    "level": "finisher",
+	    "text": "Eres un Agente con reconocimiento del INAI.",
+	    "description": "Por tu desempeño en los desafios, has logrado una puntuación excelente, por lo que el INAI te proporciona un reconocimiento que podras consultar en tu perfil.",
+	    "scoreMin": 526,
+	    "scoreMax": 540,
+	    "img" : "diploma.png"
+	 },
+	 {
+	    "id": 5,
+	    "title": "Se han terminado las preguntas",
+	    "level": "ALL_CHALLENGES",
+	    "text": "esperamos que te hayas divertido.",
+	    "description": "Si tienes ideas sobre nuevos retos, escribemos a retos@getsir.mx",
+	    "scoreMin": 10000,
+	    "scoreMax": 20000,
+	    "img" : "end.jpg"
+	 }
+]

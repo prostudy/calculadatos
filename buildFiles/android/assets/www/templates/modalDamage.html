@@ -1,0 +1,23 @@
+<!-- 
+ * Description:Vista que muestra los textos de los daños y los tips
+ * Author:Getsir
+ * Email:development@getsir.mx 
+ -->
+<ion-modal-view class="damage">
+  <ion-header-bar>
+    <h1 class="title"><img src="img/logo_riesgo.png"></h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="close()">Cerrar</button>
+    </div>
+  </ion-header-bar>
+ <ion-content class="padding" delegate-handle="modalContent">
+    <h1>{{damageModel.name}}</h1>
+    <p>{{damageModel.description}}</p>
+   	<p ng-repeat="tip in tips" class="tip">{{tip.tip}}</p>
+    <img src="img/{{damageModel.img}}" width="80%"/>
+  </ion-content>
+</ion-modal-view>
+    
+    
+    
+  

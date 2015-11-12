@@ -1,0 +1,174 @@
+[
+    {
+      "concept":"Dato personal",
+      "definition": "Cualquier información concerniente a una persona física identificada o identificable."
+    },
+    
+    {
+      "concept":"Dato personal sensible",
+      "definition": "Aquellos datos personales que afecten a la esfera más íntima de su titular, o cuya utilización indebida pueda dar origen a discriminación o conlleve un riesgo grave para éste. En particular, se consideran sensibles aquellos que puedan revelar aspectos como origen racial o étnico, estado de salud presente y futuro, información genética, creencias religiosas, filosóficas y morales, afiliación sindical, opiniones políticas, preferencia sexual."
+    },
+    
+    
+    {
+      "concept":"Datos de identificación y contacto",
+      "definition": "Nombre, Estado Civil, Registro Federal de Contribuyentes(RFC), Clave única de Registro de Población (CURP), Lugar de nacimiento, Fecha de nacimiento, Nacionalidad, Teléfono particular, Teléfono celular, Correo electrónico, Edad, Sexo"
+    },
+    
+    {
+      "concept":"Datos laborales",
+      "definition": "Puesto o cargo que desempeña o área, Domicilio de trabajo, Correo electrónico institucional, Teléfono institucional, Referencias laborales, Información generada durante los procesos de reclutamiento, selección y contratación, Trayectoria laboral, Capacitación laboral."
+    },
+    
+    {
+      "concept":"Datos académicos",
+      "definition": "Trayectoria educativa, Escolaridad, Títulos, Cédula profesional, Certificados, Idioma o lengua, Reconocimientos."
+    },
+    
+    {
+      "concept":"Datos sobre pasatiempos, entretenimiento y diversión",
+      "definition": "Pasatiempos, Aficiones, Deportes que practica, Juegos de su interés"
+    },
+    
+    {
+      "concept":"Datos sobre características físicas",
+      "definition": "Color de la piel, Color del iris, Color del cabello, Señas particulares, Estatura, Peso, Cicatrices, Fotografía, Tipo de sangre"
+    },
+    
+    {
+      "concept":"Datos migratorios",
+      "definition": "Entradas o salidas del país, Tiempo de permanencia en el país, Calidad migratoria, Derechos de residencia, Aseguramiento, Repatriación"
+    },
+    
+    {
+      "concept":"Datos ubicación",
+      "definition": "Domicilio, Localización, Información tránsito dentro o fuera del país"
+    },
+    
+    {
+      "concept":"Datos jurídicos",
+      "definition": "Antecedentes penales, Amparos, Demandas, Contratos, Información sobre procedimientos administrativos  (laboral, penal, civil, administrativa), Litigios"
+    },
+    
+    {
+      "concept":"Datos patrimoniales y/o financieros",
+      "definition": "Bienes muebles e inmuebles, Información fiscal, Historial crediticio, Ingresos, Egresos, Buró de crédito, Saldos bancarios, Estados y/o número de cuenta, Cuentas de Inversión, Número de tarjetas de crédito /débito, Fianzas, Seguros, Afores."
+    },
+    
+    {
+      "concept":"Datos biométricos",
+      "definition": "Imagen del iris, Mapa de venas, Patrones para identificación del rostro, Voz, Huella dactilar, Palma de la mano"
+    },
+    
+    {
+      "concept":"Datos autenticación",
+      "definition": "Contraseñas, Firma electrónica, Firma autógrafa"
+    },
+    
+    {
+      "concept":"Datos bancarios adicionales",
+      "definition": "Código de seguridad tarjeta, Fecha de vencimiento, Datos de banda magnética, Número de identificación personal (PIN)"
+    },
+    
+    
+    {
+      "concept":"Datos sobre la ideología; creencias religiosas, filosóficas o morales; opiniones políticas y afiliación sindical",
+      "definition": "Posturas ideológicas, Religión que profesa, Posturas filosóficas, Posturas morales, Posturas políticas, Afiliación sindical"
+    },
+    
+    {
+      "concept":"Datos de salud",
+      "definition": "Estado de salud físico presente, pasado o futuro, Información genética, Estado de salud mental presente, pasado o futuro, Información genética"
+    },
+    
+    {
+      "concept":"Datos sobre vida sexual",
+      "definition": "Preferencias sexuales, Prácticas o hábitos sexuales"
+    },
+    
+    {
+      "concept":"Datos de origen étnico o racial",
+      "definition": "Pertenencia a un pueblo, etnia o región"
+    },
+    
+    {
+      "concept":"Tratamiento",
+      "definition": "La obtención, uso, divulgación o almacenamiento de datos personales, por cualquier medio. El uso abarca cualquier acción de acceso, manejo, aprovechamiento, transferencia o disposición de datos personales"
+    },
+    
+    {
+      "concept":"Titular",
+      "definition": "La persona física a quien corresponden los datos personales"
+    },
+    
+    {
+      "concept":"Responsable",
+      "definition": "Persona física o moral de carácter privado que decide sobre el tratamiento de datos personales."
+    },
+    
+    {
+      "concept":"Aviso de privacidad",
+      "definition": "Documento físico, electrónico o en cualquier otro formato generado por el responsable que es puesto a disposición del titular, previo al tratamiento de sus datos personales "
+    },
+    
+    {
+      "concept":"Principios rectores de la protección de datos personales",
+      "definition": "Licitud, Consentimiento, Información, Calidad, Finalidad, Lealtad, Proporcionalidad, Responsabilidad."
+    },
+    
+    {
+      "concept":"Derechos ARCO",
+      "definition": "Derechos que todo titular tienen para el Acceso, la Rectificación, la Oposición y la Cancelación de sus datos personales."
+    },
+    
+    {
+      "concept":"LFTAIPG",
+      "definition": "Ley Federal de Transparencia y Acceso a la Información Pública Gubernamental"
+    },
+    
+    {
+      "concept":"LFPDPPP",
+      "definition": "Ley Federal de Protección de Datos Personales en Posesión de los Particulares"
+    },
+    
+    {
+      "concept":"Vulneraciones de seguridad de datos personales ",
+      "definition": "1. La pérdida o destrucción no autorizada; 2. El robo, extravío o copia no autorizada; 3. El uso, acceso o tratamiento no autorizado, o 4. El daño, la alteración o modificación no autorizada Artículo 64 del Reglamento de la LFPDPPP"
+    },
+    {
+    "concept":"Sistema de Gestión de Datos Personales (SGDP)",
+    "definition":"Sistema de gestión general para establecer, implementar, operar, monitorear, revisar, mantener y mejorar el tratamiento y seguridad de los datos personales en función del riesgo de los activos y de los principios, deberes y obligaciones previstos en la Ley, demás normativa aplicable y buenas prácticas en materia de protección de datos personales."
+    },
+    {
+    "concept":"Etapas SGDP",
+    "definition":"Planificar, Hacer, Verificar y Actuar."
+    },
+    {
+    "concept":"Encargado",
+    "definition":"La persona física o jurídica que sola o conjuntamente con otras trate datos personales por cuenta del responsable."
+    },
+    {
+    "concept":"Deberes para la protección de los datos personales",
+    "definition":"El responsable deberá observar los deberes de seguridad y confidencialidad a que se refieren los artículos 19 y 21 LFPDPPP."
+    },
+    {
+    "concept":"Esquema de Autorregulación Vinculante",
+    "definition":"Conjunto de principios, normas y procedimientos, de adopción voluntaria y cumplimiento vinculante, que tiene como finalidad regular el comportamiento de los responsables y encargados respecto a los tratamientos de datos personales que lleven a cabo."
+    },
+    {
+    "concept":"Transferencia",
+    "definition":"Es la comunicación de datos realizada a persona distinta del responsable o encargado del tratamiento."
+    },
+    {
+    "concept":"Medidas para la seguridad de los datos personales",
+    "definition":"Artículo 61. A fin de establecer y mantener la seguridad de los datos personales, el responsable deberá considerar las siguientes acciones: I. Inventario de datos personales y de los sistemas de tratamiento; II. Funciones y obligaciones de las personas que traten datos personales; III. Análisis de riesgos de datos personales. IV. Medidas de seguridad aplicables a los datos personales. V. Análisis de brecha VI. Plan de trabajo para la implementación de las medidas de seguridad. VII. Revisiones o auditorías VIII. Capacitar al personal IX. Registro de los medios de almacenamiento."
+    },
+    {
+    "concept":"Listado de exclusión",
+    "definition":"Base de datos que tiene por objeto registrar de manera gratuita la negativa del titular al tratamiento de sus datos personales."
+    },
+    {
+    "concept":"Remisión.",
+    "definition":"La comunicación de datos personales entre el responsable y el encargado, dentro o fuera del territorio mexicano."
+    }
+]

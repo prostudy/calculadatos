@@ -1,0 +1,269 @@
+{ 
+  "levelStandard" : {
+        "id": 1,
+        "title": "Nivel Estandar",
+        "description": "Datos con baja sensibilidad",
+        "value": 1,
+
+             "levelA":{
+                "title": "Nivel A",
+                "value": 0.2,
+                "categories": [
+                    {
+                        "name": "Datos de identificación y contacto",
+                        "damages":[1,2,3,4,6],
+                        "personalData": [
+                            {"name":"Nombre", "check":false,  "definition":"Es la designación o denominación verbal que se le da a una persona."},
+                            {"name":"Estado Civil", "check":false,  "definition":"Condición de una persona según el registro civil en función de si tiene o no pareja y su situación legal respecto a esto."},
+                            {"name":"RFC","check":false,  "definition":"Registro Federal de Contribuyentes "},
+                            {"name":"CURP","check":false,  "definition":"Clave única de Registro de Población "},
+                            {"name":"Lugar de nacimiento","check":false,  "definition":"Se refiere al lugar de donde proviene  el titular o el lugar donde ha nacido."},
+                            {"name":"Fecha de nacimiento","check":false,  "definition":"Fecha en  que nacio el titular."},
+                            {"name":"Nacionalidad","check":false,  "definition":"Condición que reconoce a una persona la pertenencia a un estado o nación."},
+                            {"name":"Teléfono particular","check":false,  "definition":"Medio de contacto que pertenece al telefóno donde habita el titular."},
+                            {"name":"Teléfono celular","check":false,  "definition":"Medio móvil de contacto que pertenece al titular."},
+                            {"name":"Email","check":false, "definition":"Correo electrónico personal"},
+                            {"name":"Edad","check":false,  "definition":"Tiempo que ha transcurrido desde el nacimiento de un ser vivo."},
+                            {"name":"Sexo","check":false, "definition":"Es el conjunto de las peculiaridades que caracterizan los individuos de una especie dividiéndolos en masculinos y femeninos."}
+                        ]
+                    },
+                    {
+                        "name": "Datos Laborales",
+                        "damages":[3,6,7],
+                        "personalData": [
+                            {"name": "Puesto o cargo", "check":false,  "definition":"Unidad impersonal de trabajo que identifica las tareas y deberes específicos, asignados a un trabajador."},
+                            {"name":"Domicilio de trabajo", "check":false,  "definition":"Ubicación donde desempeña sus actividades el trabajador."},
+                            {"name":"Email institucional", "check":false,  "definition":"Correo electrónico que la organización o institución le proporciona al titular para las actividades laborales."},
+                            {"name": "Teléfono institucional", "check":false,  "definition":"Medio de comunicación del titular proporcionado por la organización o instituciuón donde trabaja."},
+                            {"name":"Referencias laborales", "check":false,  "definition":"Información relacionada con la trabajador y su desempeño  con diferentes empleadores."},
+                            {"name":"Datos para selección y contración", "check":false, "definition":"Información generada durante los procesos de reclutamiento, selección y contratación."},
+                            {"name":"Trayectoria laboral", "check":false,  "definition":"Información sobre los diferentes sitios donde ha laborado el titular."},
+                            {"name":"Capacitación laboral", "check":false,  "definition":"Información sobre la capacitación que ha recibido el titular por parte de su empleador."}
+                        ]
+                    },
+                    {
+                        "name": "Datos Académicos",
+                        "damages":[2,3,6],
+                        "personalData": [
+                            {"name": "Trayectoria educativa", "check":false,  "definition":"Información académica sobre la formación que el titular ha recibido  en instituciones educativas."},
+                            {"name": "Escolaridad", "check":false,  "definition":"Período de tiempo que el titular ha asistitdo  a la escuela."},
+                            {"name": "Títulos", "check":false,  "definition":"Reconocimiento de la formación educativa o profesional que una persona posee tras realizar los estudios, exámenes y pruebas pertinentes."},
+                            {"name": "Cédula profesional", "check":false,  "definition":"Es el documento por medio del cual se autoriza oficialmente a una persona a ejercer su profesión."},
+                            {"name": "Certificados", "check":false,  "definition":"Documento para demostar la formación y la experiencia en alguna actividad, formación determinada."},
+                            {"name": "Idioma o lengua", "check":false,  "definition":"Sistema de comunicación verbal utilizado por el titular para establecer una comunicación."},
+                            {"name": "Reconocimientos", "check":false,  "definition":"Documentos a través de los cuales destaca alguna actividad o evidencia un logro del titular."}
+                        ]
+                    }
+                ]
+            },
+            "levelB":{
+                "title": "Nivel B",
+                "value": 0.5,
+                "categories": [
+                    {
+                        "name": "Datos sobre pasatiempos, entretenimiento y diversión",
+                        "damages":[1,3,4,6,7],
+                        "personalData": [
+                            {"name":"Pasatiempos", "check":false,  "definition":"Actividades que se realizan por gusto del titular o para su entretenimiento."},
+                            {"name":"Aficiones", "check":false,  "definition":"Actividad u ocupación que se realiza meramente por placer durante el tiempo libre."},
+                            {"name":"Deportes que practica", "check":false,  "definition":"Actividades deportivas que practica el titular."},
+                            {"name":"Juegos", "check":false,  "definition":"Actividad que se realiza generalmente para divertirse o entretenerse y en la que se ejercita alguna capacidad o destreza."}
+                        ]
+                    }
+                ]
+            },
+            "levelC":{
+                "title": "Nivel C",
+                "value": 0.8,
+                "categories": [
+                    {
+                        "name": "Datos sobre características físicas",
+                        "damages":[2,4,6],
+                        "personalData": [
+                            {"name":"Color de la piel", "check":false,  "definition":"Rasgo característico sobre el color de la piel del titular."},
+                            {"name":"Color del iris", "check":false,  "definition":"Pigmentación del iris del titular."},
+                            {"name":"Color del cabello", "check":false,  "definition":"Rasgo caraterísitico del titular sobre el color de su cabello."},
+                            {"name":"Señas particulares", "check":false,  "definition":"Son los rasgos característicos sobresalientes que son visibles en una persona."},
+                            {"name":"Estatura", "check":false,  "definition":"Altura de una persona desde los pies a la cabeza."},
+                            {"name":"Peso", "check":false,  "definition":"Es la masa del cuerpo en kilogramos."},
+                            {"name":"Cicatrices", "check":false,  "definition":"Es una marca dejada tras el cierre de una herida, de una lesión más o menos profunda de la piel."},
+                            {"name":"Fotografía", "check":false,  "definition":"Imagen sobre el papel que plasma caracterísiticas del titular."},
+                            {"name":"Tipo de sangre", "check":false,  "definition":"Identificador del grupo sanguineo al cual pertenece la sangre del titular."}
+                        ]
+                    }
+                ]
+            }
+        
+    },
+  "levelMedium":  {
+        "id": 2,
+        "title": "Nivel Medio",
+        "description": "Valores Medios",
+        "value": 1.2,
+
+          "levelA":  {
+                "title": "Nivel A",
+                "value": 0.2,
+                "categories": [
+                    {
+                        "name": "Datos migratorios",
+                        "damages":[1,4,6],
+                        "personalData": [
+                            {"name":"Entradaso salidas del país", "check":false,  "definition":""},
+                            {"name":"Tiempo de permanencia en el país", "check":false,  "definition":""},
+                            {"name":"Calidad migratoria", "check":false,  "definition":""},
+                            {"name":"Derechos de residencia", "check":false,  "definition":""},
+                            {"name":"Aseguramiento", "check":false,  "definition":""},
+                            {"name":"Repatriación", "check":false,  "definition":""}
+                        ]
+                    }
+                ]
+            },
+           "levelB":  {
+                "title": "Nivel B",
+                "value": 0.5,
+                "categories": [
+                    {
+                        "name": "Datos ubicación",
+                        "damages":[1,4,6,7],
+                        "personalData": [
+                             {"name":"Domicilio", "check":false,  "definition":""},
+                             {"name":"Localización", "check":false,  "definition":""},
+                             {"name":"Información tránsito dentro o fuera del país", "check":false,  "definition":""}
+                        ]
+                    },
+                    {
+                        "name": "Datos Jurídicos",
+                        "damages":[1,3,4,5],
+                        "personalData": [
+                             {"name":"Antecedentes penales", "check":false,  "definition":""},
+                             {"name":"Amparos", "check":false,  "definition":""},
+                             {"name":"Demandas", "check":false,  "definition":""},
+                             {"name":"Contratos", "check":false, "definition":""},
+                             {"name":"Procedimientos administrativos (laboral, penal, civil)", "check":false,  "definition":""},
+                             {"name":"Litigios", "check":false,  "definition":""}
+                        ]
+                    }
+                ]
+            },
+           "levelC":  {
+                "title": "Nivel C",
+                "value": 0.8,
+                "categories": [
+                  {
+                        "name": "Datos patrimoniales y/o financieros",
+                        "damages":[1,2,5,6],
+                        "personalData": [
+                              {"name":"Bienes muebles e inmuebles", "check":false,  "definition":""},
+                               {"name":"Información fiscal", "check":false,  "definition":""},
+                               {"name":"Historial crediticio", "check":false,  "definition":""},
+                               {"name":"Ingresos", "check":false,  "definition":""},
+                               {"name":"Egresos", "check":false,  "definition":""},
+                               {"name":"Buró de crédito", "check":false, "definition":""},
+                               {"name":"Saldos bancarios", "check":false,  "definition":""},
+                               {"name":"Estados y/o número de cuenta", "check":false,  "definition":""},
+                               {"name":"Cuentas de inversión", "check":false,  "definition":""},
+                               {"name":"Número de tarjetas de crédito /débito", "check":false,  "definition":""},
+                               {"name":"Fianzas", "check":false,  "definition":""},
+                               {"name":"Seguros", "check":false,  "definition":""},
+                               {"name":"Afores", "check":false,  "definition":""}
+                        ]
+                    },
+                    {
+                        "name":"Biometricos",
+                        "damages":[1,7],
+                        "personalData":[
+                             {"name":"Imagen del iris", "check":false, "definition":""},
+                             {"name":"Mapa de venas", "check":false,  "definition":""},
+                             {"name":"Patrones para identificación del rostro", "check":false,  "definition":""},
+                             {"name":"Voz", "check":false,  "definition":""},
+                             {"name":"Huella dactilar", "check":false,  "definition":""},
+                             {"name":"Palma de la mano", "check":false,  "definition":""}
+                          ]
+                    },
+                    {
+                        "name": "Datos de autenticación",
+                        "damages":[1,2,3,4,5,7],
+                        "personalData": [
+                             {"name":"Contraseñas", "check":false, "definition":""},
+                             {"name":"Firma eletrónica", "check":false,  "definition":""},
+                             {"name":"Firma autógrafa", "check":false,  "definition":""}
+                        ]
+                    }
+                    
+                ]
+            }
+        
+    },
+  "levelCritical":  {
+        "id": 3,
+        "title": "Nivel Crítico",
+        "description": "Valores críticos",
+        "value": 1.3,
+           "levelA":  {
+                "title": "Nivel C",
+                "value": 0.2,
+                "categories": [
+                    {
+                        "name": "Datos bancarios adicionales",
+                        "damages":[1,2,5],
+                        "personalData": [
+                             {"name":"Código de seguridad tarjeta", "check":false,  "definition":""},
+                             {"name":"Fecha de vencimiento", "check":false,  "definition":""},
+                             {"name":"Datos de banda magnética", "check":false,  "definition":""},
+                             {"name":"Número de identificación personal (PIN)", "check":false,  "definition":""}
+                        ]
+                    }
+                ]
+            },
+           "levelB":  {
+                "title": "Nivel B",
+                "value": 0.5,
+                "categories": [
+                    {
+                        "name": "Datos sobre la ideología; creencias religiosas, filosóficas o moralesopiniones políticas y afiliación sindical",
+                        "damages":[3],
+                        "personalData": [
+                             {"name":"Posturas ideológicas", "check":false,  "definition":""},
+                             {"name":"Religión que profesa", "check":false,  "definition":""},
+                             {"name":"Posturas filosóficas", "check":false,  "definition":""},
+                             {"name":"Posturas morales", "check":false,  "definition":""},
+                             {"name":"Posturas políticas", "check":false,  "definition":""},
+                             {"name":"Afiliación sindical", "check":false,  "definition":""}
+                        ]
+                    }
+                ]
+            },
+           "levelC":  {
+                "title": "Nivel C",
+                "value": 0.9,
+                "categories": [
+                    {
+                        "name": "Datos de salud",
+                        "damages":[1,2,3,4,6],
+                        "personalData": [
+                             {"name":"Estado de salud físico presente, pasado o futuro", "check":false,  "definition":""},
+                             {"name":"Información genética", "check":false,  "definition":""},
+                             {"name":"Estado de salud mental presente, pasado o futuro", "check":false,  "definition":""}
+                        ]
+                    },
+                    {
+                        "name": "Datos sobre vida sexual",
+                        "damages":[1,3,4],
+                        "personalData": [
+                             {"name":"Preferencias sexuales", "check":false,  "definition":""},
+                             {"name":"Prácticas o hábitos sexuales" ,"check":false,  "definition":""}
+                        ]
+                    },
+                    {
+                        "name": "Datos de origen étnico o racial",
+                        "damages":[3,6],
+                        "personalData": [
+                             {"name":"Pertenencia a un pueblo, etnia o región", "check":false,  "definition":""}
+                        ]
+                    }
+                ]
+            }
+        
+    }
+}

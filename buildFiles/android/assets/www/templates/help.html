@@ -1,0 +1,40 @@
+<!-- 
+ * Description:Pantallas iniciales de ayuda.
+ * Author:Getsir
+ * Email:development@getsir.mx 
+ -->
+<ion-modal-view class="help">
+  <ion-header-bar>
+    <h1 class="title"><img src="img/logo.png"></h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="closeHelp1()">Finalizar</button>
+    </div>
+  </ion-header-bar>
+  
+ <ion-content>       
+        <ion-slide-box on-slide-changed="slideChanged(index)">
+        <ion-slide class="textEstimation">
+           <h3>Acerca de la estimación de CalculaDatos</h3>
+		    <br><p>CalculaDatos es una aplicación que proporciona una estimación económica para brindar al usuario el valor de los datos personales.</p>
+    		<p>Los resultados obtenidos mediante este ejercicio de simulación carecen de cualquier valor oficial y son generados con el único objetivo de crear conciencia en los titulares sobre la decisión de proporcionar o no sus datos y a su vez en los responsables o encargados sobre las responsabilidades en el tratamiento de los datos personales que realizan.</p>
+          </ion-slide>
+          <ion-slide>
+                  <p>1.- Selecciona tus datos personales en cada pestaña.</p>
+                  <img class="ayuda" src="img/help/1.png"/>
+          </ion-slide>
+          <ion-slide>
+                  <p>2.- Indica como son tratados tus datos personales.</p>
+                  <img class="ayuda" src="img/help/2.png"/>
+          </ion-slide>
+          <ion-slide>
+                  <p>3.- Conoce el valor de tus datos.</p>
+                  <img class="ayuda" src="img/help/3.png"/>
+          </ion-slide>
+          <ion-slide>
+                  <p>4.- Desafiamos tus conocimientos, visita la parte de retos</p>
+                  <img class="ayuda" src="img/help/4.png"/>
+          </ion-slide>
+        </ion-slide-box>
+
+  </ion-content>
+</ion-modal-view>

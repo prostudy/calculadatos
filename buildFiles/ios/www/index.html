@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+	<!--Libreria para el plugin de sqlite  -->
+	<script src="js/lib/ng-cordova.min.js"></script>
+	
+	
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+    
+    <!--  <script src="js/modules/GlobalFunctions.js"></script-->
+    <script src="js/modules/Constants.js"></script>
+   
+    <!-- your app's js -->
+    <script src="js/app.js"></script> 
+    <script src="js/modules/ParamView.js"></script>
+    <script src="services/INAIService.js"></script>
+    <script src="services/ConoceMasService.js"></script>    
+    <script src="services/ChallengesService.js"></script>
+	<script src="services/DamagesService.js"></script>    
+    <script src="services/LocalStorageService.js"></script>
+    <script src="js/StandardDataCtrl.js"></script>
+    <script src="js/PrincipiosCtrl.js"></script>
+    <script src="js/SummaryCtrl.js"></script>
+    <script src="js/ChallengesCtrl.js"></script>
+    <script src="js/ConoceMasCtrl.js"></script>
+    <script src="js/RankingCtrl.js"></script>
+    <script src="js/SettingsCtrl.js"></script>
+    <script src="js/MenuCtrl.js"></script> 
+    
+  </head>
+  <body ng-app="starter" class="platform-ios platform-cordova platform-webview">    
+    <ion-side-menus enable-menu-with-back-views="true">
+	  	<ion-side-menu-content>
+			<ion-nav-bar>
+			<ion-nav-back-button></ion-nav-back-button>
+	
+		      <!--
+		      Use primary and secondary, so buttons correctly map to the side familiar to users of each platform.
+		      ion-nav-buttons must be immediate descendants of the ion-view or ion-nav-bar element
+		      (basically, don't wrap it in another div).
+		      -->
+		      <ion-nav-buttons side="right">
+		        <button class="button button-icon button-clear ion-navicon" menu-toggle="right"></button>
+		      </ion-nav-buttons>
+		
+		    </ion-nav-bar>
+		
+		    <ion-nav-view name="menuContent" animation="slide-right-left"></ion-nav-view>
+			
+			<!-- Se inyecta el contenido de las vistas -->
+			<ion-nav-view></ion-nav-view>      
+	
+	  	</ion-side-menu-content>
+
+	  	<ion-side-menu side="right" ng-controller="MenuCtrl"z>
+	    	<ion-header-bar>
+	      	 <h1 class="title"><img src="img/logo.png"></h1> 
+             
+	    	</ion-header-bar>
+	    	<!-- <ion-pane ion-side-menu-content drag-content="true"> -->
+		    <ion-content class="has-header">
+		      <ion-list>
+		         <ion-item  ng-click="openCalculator()">
+		          <i class="fa fa-calculator"></i>Calculadora
+		        </ion-item>
+		        <ion-item ng-click="toggleLeftSideMenu()" href="#/retos">
+		          <i class="fa fa-trophy"></i>Retos
+		        </ion-item>
+		        <ion-item ng-click="toggleLeftSideMenu()" href="#/ranking">
+		          <i class="fa fa-user"></i>Perfil
+		        </ion-item>
+		        <ion-item ng-click="toggleLeftSideMenu()" href="#/conocemas">
+		          <i class="fa fa-book"></i>Conoce +
+		        </ion-item>
+		        <!-- <ion-item ng-click="toggleLeftSideMenu()" href="#/settings">
+		         <i class="fa fa-cogs"></i> Configuración
+		        </ion-item> -->
+		        <ion-item ng-click="toggleLeftSideMenu()" href="#/about">
+		          <i class="fa fa-cogs"></i>Configuración
+		        </ion-item>
+				</ion-list>
+		    </ion-content>
+		   <!--  </ion-pane> -->
+	  </ion-side-menu>
+	</ion-side-menus>
+
+  </body>
+</html>

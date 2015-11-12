@@ -1,0 +1,55 @@
+<!-- 
+ * Description:Vista principal de la pantalla de configuracion.
+ * Muestra las opciones de Politica de privacidad, Texto de estimacion y la ayuda.
+ * Ademas se pueden restaurar todos los valores oroginales, eliminando las tablas y local storage del dispositivo
+ * Tambien se tiene la opcion de activar o desactivar la opcion de reintentar los retos.
+ * Author:Getsir
+ * Email:development@getsir.mx 
+ -->
+<ion-view view-title="<img src='img/logo.png'>" class="config">
+    </ion-nav-buttons>
+  <ion-content>
+   <div class="list">
+        
+        <div class="item item-divider">Privacidad y estimación</div>
+  		<a class="item item-icon-left" href="#/privacypolicy">
+    		<i class="icon ion-locked"></i>Política de Privacidad 
+		</a>
+		 <a class="item item-icon-left" href="#/estimation">
+    		<i class="icon ion-ios-information-outline"></i>Estimación
+        </a>
+	
+		<div class="item item-divider">Ayuda</div>
+  		<a class="item item-icon-left" href="#/help">
+    		<i class="icon ion-ios-help-outline"></i>Ayuda
+        </a>
+       
+        <!-- <div class="item item-divider"> 
+          Compartir información
+        </div>
+        
+        <ion-toggle ng-model="shareSocial.checked" ng-change="shareSocialChange()">
+          Compartir en redes sociales
+        </ion-toggle>
+        
+        <ion-toggle ng-model="shareScoreWithINAI.checked" ng-change="shareScoreWithINAIChange()">
+          Compartir resultados con el INAI
+        </ion-toggle> -->
+        
+         <div class="item item-divider"> 
+          Retos
+        </div>
+        
+        <ion-toggle ng-model="restarChallenges.checked" ng-change="restarChallengesChange()">
+          Permitir reintentar los retos
+        </ion-toggle>    
+       
+		
+		<button ng-click="restoreAllData()" class="button button-block button-assertive">
+  			Reiniciar todos los valores
+		</button>  	
+		<div class="textAbout">*Reiniciar todos los valores eliminará todos los puntos y retos que se hayan realizado.</div>		
+		
+      </div>
+  </ion-content>
+</ion-view>

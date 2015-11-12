@@ -1,0 +1,541 @@
+[
+{
+    "id": 1,
+    "text": "Selecciona todos los datos personales que correspondan a la categoría datos personales sensibles.",
+    "options": [ { "id": "a", "text": "Nombre"}, { "id": "b", "text": "Huella dactilar"}, { "id": "c", "text": "Cuenta bancaria"}, { "id": "d", "text": "Estado de salud"} ],
+    "answer": "d",
+    "value": 10,					
+    "type":"question",
+    "level":"apprentice",
+    "version":"1.0"
+ },
+
+{
+    "id": 2,
+    "text": "Una archivo de excel de la nómina contiene los siguientes campos: Nombre, Sueldo, Numero de cuenta bancaria ¿cuál es el valor de esta base de datos? (Considera que NO se cumple con ningún principio de usuario)",
+    "options": [ { "id": "a", "text": "$ 870.00"}, { "id": "b", "text": "$ 1, 230.00"}, { "id": "c", "text": "$ 1, 100.00"}, { "id": "d", "text": "$ 1, 500.00"} ],
+    "answer": "b",
+    "value": 15,					
+    "type":"estimation",
+    "level":"citizen",
+    "version":"1.0"
+ },
+ 
+{
+    "id": 3,
+    "text": "La siguiente definición: 'Cualquier información concerniente a una persona física identificada o identificable.' pertenece a:",
+    "options": [ { "id": "a", "text": "Información personal"}, { "id": "b", "text": "dato personal sensible"}, { "id": "c", "text": "dato personal"}, { "id": "d", "text": "dato de identificación"} ],
+    "answer": "c",
+    "value": 5,					
+    "type":"question",
+    "level":"apprentice",
+    "version":"1.0"
+ },
+ 
+ 
+  {
+    "id": 4,
+    "text": "Un sistema de tratamiento  del área de Ventas contiene datos personales de nivel estándar, tiene un valor de $ 900.00, identifique el tipo de datos personales que contiene el sistema. (Considera que NO se cumple con ningún principio de usuario)",
+    "options": [ { "id": "a", "text": "nombre, telefono particular, email, fotografía."}, { "id": "b", "text": "nombre, email, fotografía, número de cuenta."}, { "id": "c", "text": "nombre, fotografía, telefonocelular, pasatiempos"}, { "id": "d", "text": "nombre, teléfono celular, email"} ],
+    "answer": "a",
+    "value": 15,					
+    "type":"reverse",
+    "level":"citizen",
+    "version":"1.0"
+ },
+ 
+
+ 
+  {
+    "id": 5,
+    "text": "¿A que nivel pertenecen los datos bancarios adicionales ?",
+    "options": [ { "id": "a", "text": "Nivel Estándar"}, { "id": "b", "text": "Nivel Sensible"}, { "id": "c", "text": "Nivel Crítico"}, { "id": "d", "text": "Nivel Medio"} ],
+    "answer": "b",
+    "value": 5,					
+    "type":"question",
+    "level":"apprentice",
+    "version":"1.0"
+ },
+ 
+
+ 
+  {
+    "id": 6,
+    "text": "Un hospital cuenta con una base de datos de pacientes para dar consultas médicas, que tiene los siguientes tipo de datos personales: Nombre, edad, estado de salud, email. ¿ Cuál es el valor de los datos personales que contiene esta base? (Considera que NO se cumple con ningún principio de usuario)",
+    "options": [ { "id": "a", "text": "$ 1, 177.50"}, { "id": "b", "text": "1, 200.00"}, { "id": "c", "text": "1, 675.50"}, { "id": "d", "text": "1, 717.50"} ],
+    "answer": "a",
+    "value": 15,					
+    "type":"estimation",
+    "level":"citizen",
+    "version":"1.0"
+ },
+ 
+ {
+    "id": 7,
+    "text": "Un sistema biométrico tiene datos personales de nivel estándar y  medio, con valor de  $870. 00, para controlar el acceso de los empleados a las oficinas, identifique el tipo de datos personales que este sistema trata. (Considera que NO se cumple con ningún principio de usuario)",
+    "options": [ { "id": "a", "text": "nombre, huella, telefono"}, { "id": "b", "text": "nombre, huella, domicilio"}, { "id": "c", "text": "nombre, iris, teléfono"}, { "id": "d", "text": "nombre, huella"} ],
+    "answer": "d",
+    "value": 15,					
+    "type":"reverse",
+    "level":"citizen",
+    "version":"1.0"
+ },
+ 
+  {
+    "id": 8,
+    "text": "Teléfono  que el Instituto pone a disposición de los titulares para recibir asesoría u orientación sobre temas relacionados con datos personales",
+    "options": [ { "id": "a", "text": "01 800 8354324"}, { "id": "b", "text": "01 800 8251324"}, { "id": "c", "text": "01 800 8334314"}, { "id": "d", "text": "01 800 8355324"} ],
+    "answer": "a",
+    "value": 10,					
+    "type":"question",
+    "level":"apprentice",
+    "version":"1.0"
+ },
+
+  {
+    "id": 9,
+    "text": "Selecciona los derechos que todo titular puede ejercer para proteger sus datos personales.",
+    "options": [ { "id": "a", "text": "acceso, revalidación, oposición, cancelación"}, { "id": "b", "text": "actualización, revalidación, oposición, cancelación"}, { "id": "c", "text": "acceso, rectificación, oposición, cancelación"}, { "id": "d", "text": "acceso, rectifiación, oposición, bloqueo."} ],
+    "answer": "c",
+    "value": 10,					
+    "type":"question",
+    "level":"citizen",
+    "version":"1.0"
+ },
+
+  {
+    "id": 10,
+    "text": "Selecciona la opción que incluya 3 principios rectores para la protección de los datos personales.",
+    "options": [ { "id": "a", "text": "Información, Integridad, Confidencialidad, Seguridad."}, { "id": "b", "text": "Información, Calidad, Finalidad, Lealtad."}, { "id": "c", "text": "Información, Calidad, Cancelación, Proporcionalidad."}, { "id": "d", "text": "Proporcionalidad, Calidad, Finalidad, Aviso de privacidad."} ],
+    "answer": "b",
+    "value": 15,					
+    "type":"question",
+    "level":"agent",
+    "version":"1.0"
+ },
+ 
+
+  {
+    "id": 11,
+    "text": "Documento físico, electrónico o en cualquier otro formato generado por el responsable que es puesto a disposición del titular, previo al tratamiento de sus datos personales.",
+    "options": [ { "id": "a", "text": "Política de privacidad"}, { "id": "b", "text": "Política de datos personales"}, { "id": "c", "text": "Aviso de tratamiento de datos personales."}, { "id": "d", "text": "Aviso de privacidad."} ],
+    "answer": "d",
+    "value": 10,					
+    "type":"question",
+    "level":"agent",
+    "version":"1.0"
+ },
+ 
+  {
+    "id": 12,
+    "text": "La credencial para votar en México, documento utilizado como identificación, contiene los siguientes datos personales: Nombre, Edad, Domicilio, Sexo, CURP, Fotografía, Firma ¿Cuál es el valor de los datos personales que contiene esta credencial? (Considera que NO se cumple con ningún principio de usuario)",
+    "options": [ { "id": "a", "text": "$ 2, 154.00"}, { "id": "b", "text": "$2, 120.50"}, { "id": "c", "text": "$ 2, 145.00"}, { "id": "d", "text": "$ 2, 165.00"} ],
+    "answer": "c",
+    "value": 15,					
+    "type":"estimation",
+    "level":"citizen",
+    "version":"1.0"
+ },
+ 
+ {
+    "id": 13,
+    "text": "Nombre de las medidas de seguridad que deben implementar los responsables o encargados para la protección de los datos personales que tratan.",
+    "options": [ { "id": "a", "text": "Administrativas, Físicas y Técnicas"}, { "id": "b", "text": "Ambientales, Físicas y Tecnológicas"}, { "id": "c", "text": "Administrativas, Físicas y Trazables"}, { "id": "d", "text": "Ambientales, Físicas y Técnicas"} ],
+    "answer": "a",
+    "value": 10,					
+    "type":"question",
+    "level":"agent",
+    "version":"1.0"
+ },
+ 
+  {
+    "id": 14,
+    "text": "La licencia de conducir en México, contiene los siguientes datos personales: Nombre,  RFC, Huella, Fotografía y Firma ¿Cuál es el valor de los datos personales que contiene esta credencial? (Considera que NO se cumple con ningún principio de usuario)",
+    "options": [ { "id": "a", "text": "$ 1, 950.50"}, { "id": "b", "text": "$ 1, 805.00"}, { "id": "c", "text": "$  1, 905.00"}, { "id": "d", "text": "$ 1, 509.00"} ],
+    "answer": "c",
+    "value": 15,					
+    "type":"estimation",
+    "level":"citizen",
+    "version":"1.0"
+ },
+ 
+  {
+    "id": 15,
+    "text": "Leyes en México sobre la protección de los datos personales.",
+    "options": [ { "id": "a", "text": "LFTADP  y LFPDP"}, { "id": "b", "text": "LFTAP y LFPDPP"}, { "id": "c", "text": "LFTAI y LPDPP"}, { "id": "d", "text": "LFTAIPG y LFPDPPP"} ],
+    "answer": "d",
+    "value": 5,					
+    "type":"question",
+    "level":"citizen",
+    "version":"1.0"
+ },
+  {
+    "id": 16,
+    "text": "Un estado de cuenta, contiene los siguientes datos personales: Nombre, Domicilio, RFC, Número de cuenta, Número de tarjeta, Ingresos, Egresos ¿Cuál es el valor de los datos personales que contiene este documento? (Considera que NO se cumple con ningún principio de usuario)",
+    "options": [ { "id": "a", "text": "$ 2, 475.00"}, { "id": "b", "text": "$ 2, 500.00"}, { "id": "c", "text": "$  2, 650.00"}, { "id": "d", "text": "$ 2, 745.00"} ],
+    "answer": "a",
+    "value": 15,					
+    "type":"estimation",
+    "level":"citizen",
+    "version":"1.0"
+ },
+
+  {
+    "id": 17,
+    "text": "Es la persona física a quien corresponden los datos personales",
+    "options": [ { "id": "a", "text": "Dueño"}, { "id": "b", "text": "Custodio"}, { "id": "c", "text": "Titular"}, { "id": "d", "text": "Responsable"} ],
+    "answer": "c",
+    "value": 5,					
+    "type":"question",
+    "level":"apprentice",
+    "version":"1.0"
+ },
+ 
+  {
+    "id": 18,
+    "text": "Artículos de la Constitución de México que fueron modificados para incluir los Derechos ARCO.",
+    "options": [ { "id": "a", "text": "Artículo 6"}, { "id": "b", "text": "Artículo 73"}, { "id": "c", "text": "Artículo 26"}, { "id": "d", "text": "Artículo 16"} ],
+    "answer": "d",
+    "value": 5,					
+    "type":"question",
+    "level":"agent",
+    "version":"1.0"
+ },
+ 
+  {
+    "id": 19,
+    "text": "Año en que fue publicada en el DOF la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (LFPDPPP)",
+    "options": [ { "id": "a", "text": "2011"}, { "id": "b", "text": "2010"}, { "id": "c", "text": "2012"}, { "id": "d", "text": "2009"} ],
+    "answer": "b",
+    "value": 5,					
+    "type":"question",
+    "level":"citizen",
+    "version":"1.0"
+ },
+ 
+  {
+    "id": 20,
+    "text": "Los datos como contraseñas, firma electrónica, firma autógrafa ¿ a que categoría de datos personales pertenecen?",
+    "options": [ { "id": "a", "text": "datos identificación."}, { "id": "b", "text": "datos verificación."}, { "id": "c", "text": "datos autenticación."}, { "id": "d", "text": "datos validación."} ],
+    "answer": "c",
+    "value": 10,					
+    "type":"question",
+    "level":"apprentice",
+    "version":"1.0"
+ },
+ 
+  {
+    "id": 21,
+    "text": "Los datos personales del recibo del servicio de luz en total suman la cantidad de $ 600.00 Identifica la opción que incluye los datos personales que suman la cantidad indicada. (Considera que NO se cumple con ningún principio de usuario)",
+    "options": [ { "id": "a", "text": "nombre, dirección, RFC"}, { "id": "b", "text": "nombre, dirección, CURP, RFC"}, { "id": "c", "text": "nombre, dirección, RFC,  telefono"}, { "id": "d", "text": "nombre, dirección"} ],
+    "answer": "d",
+    "value": 15,					
+    "type":"reverse",
+    "level":"citizen",
+    "version":"1.0"
+ },
+
+  {
+    "id": 22,
+    "text": "En promedio un CV contiene los siguientes datos, Nombre, domicilio, telefóno particular, telefóno celular, email, fecha de nacimiento, trayectoria laboral, trayectoria educativa, idioma, reconocimiento, títulos, certificados ¿Cuál es el valor de los datos personales que contiene este CV? (Considera que NO se cumple con ningún principio de usuario)",
+    "options": [ { "id": "a", "text": "$ 1, 350.00"}, { "id": "b", "text": "$ 1, 500.00"}, { "id": "c", "text": "$  1, 250.50"}, { "id": "d", "text": "$ 2, 500.00"} ],
+    "answer": "a",
+    "value": 15,					
+    "type":"estimation",
+    "level":"citizen",
+    "version":"1.0"
+ },
+
+  {
+    "id": 23,
+    "text": "Los datos como color de la piel, color del iris, color del cabello, Estatura, Peso, Tipo de sangre ¿a que categoría de datos personales pertenecen?",
+    "options": [ { "id": "a", "text": "datos identificación"}, { "id": "b", "text": "datos sobre características físicas"}, { "id": "c", "text": "datos autenticación"}, { "id": "d", "text": "datos validación"} ],
+    "answer": "b",
+    "value": 5,					
+    "type":"question",
+    "level":"apprentice",
+    "version":"1.0"
+ },
+
+  {
+    "id": 24,
+    "text": "Artículo del Reglamento de la LFPDPPP que establece las vulneraciones de seguridad de datos personales que pueden ocurrir en cualquier etapa del tratamiento:",
+    "options": [ { "id": "a", "text": "Artículo 63"}, { "id": "b", "text": "Artículo 61"}, { "id": "c", "text": "Arículo 64"}, { "id": "d", "text": "Artículo 53"} ],
+    "answer": "a",
+    "value": 10,					
+    "type":"question",
+    "level":"agent",
+    "version":"1.0"
+ },
+
+  {
+    "id": 25,
+    "text": "El plástico de una tarjeta bancaria incluye como datos los siguientes: nombre, número de tarjeta, código de seguridad de la tarjeta, fecha de vencimiento, firma autógrafa ¿Cuál es el valor de los datos personales que contiene este plástico? (Considera que NO se cumple con ningún principio de usuario)",
+    "options": [ { "id": "a", "text": "$ 1, 522.50"}, { "id": "b", "text": "$ 1, 600.00"}, { "id": "c", "text": "$  1, 750.50"}, { "id": "d", "text": "$ 1, 255.00"} ],
+    "answer": "a",
+    "value": 15,					
+    "type":"estimation",
+    "level":"citizen",
+    "version":"1.0"
+ },
+ 
+  {
+    "id": 26,
+    "text": "La bitácora para el acceso a una empresa incluye como datos los siguientes: nombre y firma ¿Cuál es el valor de los datos personales que contiene este registro de entrada? (Considera que SI se cumplen con todos los principios de usuario)",
+    "options": [ { "id": "a", "text": "$175.00"}, { "id": "b", "text": "$876.00"}, { "id": "c", "text": "$174.00"}, { "id": "d", "text": "$870.00"} ],
+    "answer": "c",
+    "value": 10,                    
+    "type":"estimation",
+    "level":"citizen",
+    "version":"1.0"
+ },
+ 
+ 
+  {
+    "id": 27,
+    "text": "El pasaporte mexicano incluye los siguientes datos nombre, nacionalidad, fecha de nacimiento, sexo, curp, firma, entradas o salidas del país ¿Cuál es el valor de los datos personales que contiene el pasaporte? (Considera que SI se cumplen con todos los principios del usuario)",
+    "options": [ { "id": "a", "text": "$1,450.00"}, { "id": "b", "text": "$370.00"}, { "id": "c", "text": "$1,350.00"}, { "id": "d", "text": "$270.00"} ],
+    "answer": "d",
+    "value": 10,                    
+    "type":"estimation",
+    "level":"agent",
+    "version":"1.0"
+ },
+   {
+    "id": 28,
+    "text": "Etapas que integran un Sistema de Gestión de Datos Personales.",
+    "options": [ { "id": "a", "text": "Planificar, Realizar, Verificar y Actualizar"}, { "id": "b", "text": "Planificar, Hacer, Verificar y Actuar"}, { "id": "c", "text": "Plantear, Elaborar, Revisar y Actualizar"}, { "id": "d", "text": "Planificación, Elaboración, Revisión y Auditoría"} ],
+    "answer": "b",
+    "value": 10,                    
+    "type":"question",
+    "level":"citizen",
+    "version":"1.0"
+ },
+ 
+   {
+    "id": 29,
+    "text": "Nombre del Instituo en México encargado de la protección de los datos personales.",
+    "options": [ { "id": "a", "text": "INAI"}, { "id": "b", "text": "IFAI"}, { "id": "c", "text": "INE"}, { "id": "d", "text": "SEGOB"} ],
+    "answer": "a",
+    "value": 5,                 
+    "type":"question",
+    "level":"apprentice",
+    "version":"1.0"
+ },
+   {
+    "id": 30,
+    "text": "Son aquellos datos que afectan a la esfera más íntima del titular, o cuya uso indebido pueda dar origen a discriminación o conlleve un riesgo grave para éste.",
+    "options": [ { "id": "a", "text": "datos críticos"}, { "id": "b", "text": "datos patrimoniales o financieros"}, { "id": "c", "text": "datos sensibles"}, { "id": "d", "text": "datos de alto riesgo"} ],
+    "answer": "c",
+    "value": 5,                 
+    "type":"question",
+    "level":"apprentice",
+    "version":"1.0"
+ },
+
+   {
+    "id": 31,
+    "text": "Una base de datos de ventas contiene como datos: nombre, edad, sexo, correo electrónico y teléfono celular de por lo menos 200 clientes. ¿ Cuál es el valor de la base de datos de ventas? (Considera que NO se cumple con ningún principio de usuario)",
+    "options": [ { "id": "a", "text": "$90, 000.00"}, { "id": "b", "text": "$100, 000.00"}, { "id": "c", "text": "$150, 000.00"}, { "id": "d", "text": "$80, 000.00"} ],
+    "answer": "a",
+    "value": 15,                    
+    "type":"estimation",
+    "level":"agent",
+    "version":"1.0"
+ },
+
+   {
+    "id": 32,
+    "text": "El Sistema de Expediente Clínico Eléctronico para el seguimiento de los pacientes en un hospital cuenta con una base de datos de 2500 pacientes con los siguientes datos: nombre, RFC, lugar de nacimiento, fecha de nacimiento, domicilio, telefono particular, edad, sexo, estatura, peso, fotografía, tipo de sangre, estado de salud físico presente, pasado o futuro ¿ Cuál es el valor de la base de datos de este sistema? (Considera que NO se cumple con ningún principio de usuario)",
+    "options": [ { "id": "a", "text": "$3,742,000.00"}, { "id": "b", "text": "$2,752,000.00"}, { "id": "c", "text": "$2,742,000.00"}, { "id": "d", "text": "$2,762,000.00"} ],
+    "answer": "c",
+    "value": 15,                    
+    "type":"estimation",
+    "level":"agent",
+    "version":"1.0"
+ },
+   {
+    "id": 33,
+    "text": "Corresponde a la persona física o jurídica que sola o conjuntamente con otras trate datos personales por cuenta del responsable.",
+    "options": [ { "id": "a", "text": "responsable"}, { "id": "b", "text": "encargado"}, { "id": "c", "text": "custodio"}, { "id": "d", "text": "dueño"} ],
+    "answer": "b",
+    "value": 5,                 
+    "type":"question",
+    "level":"agent",
+    "version":"1.0"
+ },
+   {
+    "id": 34,
+    "text": "Se define como el conjunto de principios, normas y procedimientos, de adopción voluntaria y cumplimiento vinculante, que tiene como finalidad regular el comportamiento de los responsables y encargados respecto a los tratamientos de datos personales.",
+    "options": [ { "id": "a", "text": "Esquema de Autorregulación Vinculante"}, { "id": "b", "text": "Sistema de Gestión de Datos Personales"}, { "id": "c", "text": "Esquema de Gestión de Datos Personales"}, { "id": "d", "text": "Sistema de Autorregulación para Datos Personales"} ],
+    "answer": "a",
+    "value": 15,                    
+    "type":"question",
+    "level":"agent",
+    "version":"1.0"
+ },
+   {
+    "id": 35,
+    "text": "Artículo del Reglamento de la LFPDPPP que establece el tratamiento de los datos personales en el cómputo en la nube",
+    "options": [ { "id": "a", "text": "Artículo 55"}, { "id": "b", "text": "Artículo 30"}, { "id": "c", "text": "Artículo 52"}, { "id": "d", "text": "Artículo 35"} ],
+    "answer": "c",
+    "value": 15,                    
+    "type":"question",
+    "level":"citizen",
+    "version":"1.0"
+ },
+   {
+    "id": 36,
+    "text": "Para la promoción de un supermercado se recolectan datos como: nombre, correo electrónico y telefóno celular, la base de datos de los participantes es de 15. Calcule el valor de la base de datos (Considera que NO se cumple con ningún principio de usuario)",
+    "options": [ { "id": "a", "text": "$ 4, 500.00"}, { "id": "b", "text": "$ 5, 500.00"}, { "id": "c", "text": "$ 4, 800.00"}, { "id": "d", "text": "$ 5, 800.00"} ],
+    "answer": "a",
+    "value": 10,                    
+    "type":"estimation",
+    "level":"apprentice",
+    "version":"1.0"
+ },
+   {
+    "id": 37,
+    "text": "La factura para el pago del servicio de teléfono incluye los datos de nombre, domicilio y telefono particular. Calcule el valor de los datos personales en esta factura. (Considera que SI se cumplen con todos los principios de usuario)",
+    "options": [ { "id": "a", "text": "$ 635.00"}, { "id": "b", "text": "$ 675.00"}, { "id": "c", "text": "$ 145.00"}, { "id": "d", "text": "$ 135.00"} ],
+    "answer": "d",
+    "value": 5,                 
+    "type":"estimation",
+    "level":"apprentice",
+    "version":"1.0"
+ },
+   {
+    "id": 38,
+    "text": "Menciona los deberes que establece la LFPDPPP para la protección de datos personales.",
+    "options": [ { "id": "a", "text": "seguridad y lealtad"}, { "id": "b", "text": "confidencilidad y privacidad"}, { "id": "c", "text": "seguridad y confidencialidad"}, { "id": "d", "text": "seguridad y calidad"} ],
+    "answer": "c",
+    "value": 10,                    
+    "type":"question",
+    "level":"apprentice",
+    "version":"1.0"
+ },
+   {
+    "id": 39,
+    "text": "La base de datos de 20 clientes, en un laboratorio suman la cantidad de $6, 210.00. Identifica la opción que incluye los datos personales que suman la cantidad indicada. (Considera que SI se cumple con todos los principio de usuario)",
+    "options": [ { "id": "a", "text": "Nombre, edad, domicilio, estado de salud"}, { "id": "b", "text": "Nombre, edad, sexo, estado de salud"}, { "id": "c", "text": "Nombre, edad, sexo, fotografía"}, { "id": "d", "text": "Nombre, edad, sexo, fotografía, domicilio"} ],
+    "answer": "a",
+    "value": 15,                    
+    "type":"reverse",
+    "level":"apprentice",
+    "version":"1.0"
+ },
+   {
+    "id": 40,
+    "text": "Selecciona el dato personal que corresponda a la categoría datos personales de autenticación.",
+    "options": [ { "id": "a", "text": "Firma electrónica, fotografía"}, { "id": "b", "text": "Contraseñas, huella digital"}, { "id": "c", "text": "Contraseñas, firma electrónica."}, { "id": "d", "text": "Firma autógrafa, fotografía"} ],
+    "answer": "c",
+    "value": 10,                    
+    "type":"question",
+    "level":"apprentice",
+    "version":"1.0"
+ },
+   {
+    "id": 41,
+    "text": "¿ A que nivel pertenecen los datos personales como : posturas ideológicas, religión que profesa, posturas filosóficas, posturas morales, posturas políticas, y afiliación sindical ?",
+    "options": [ { "id": "a", "text": "Nivel Estándar"}, { "id": "b", "text": "Nivel Sensible"}, { "id": "c", "text": "Nivel Crítico"}, { "id": "d", "text": "Nivel Medio"} ],
+    "answer": "b",
+    "value": 10,                    
+    "type":"question",
+    "level":"apprentice",
+    "version":"1.0"
+ },
+   {
+    "id": 42,
+    "text": "Selecciona el dato personal que corresponda a la categoría datos personales de ubicación.",
+    "options": [ { "id": "a", "text": "Domicilio, geolocalización, movimientos en el país."}, { "id": "b", "text": "Domicilio, dirección electrónica, ubicación."}, { "id": "c", "text": "Domicilio, ubicación, entradas y salidas del país."}, { "id": "d", "text": "Domicilio, localización, información tránsito dentro o fuera del país."} ],
+    "answer": "d",
+    "value": 10,                    
+    "type":"question",
+    "level":"apprentice",
+    "version":"1.0"
+ },
+   {
+    "id": 43,
+    "text": "¿ A que nivel pertenecen los datos personales como la voz y la huella dactilar ?",
+    "options": [ { "id": "a", "text": "Nivel Estándar"}, { "id": "b", "text": "Nivel Sensible"}, { "id": "c", "text": "Nivel Crítico"}, { "id": "d", "text": "Nivel Medio"} ],
+    "answer": "d",
+    "value": 10,                    
+    "type":"question",
+    "level":"apprentice",
+    "version":"1.0"
+ },
+
+   {
+    "id": 44,
+    "text": "Selecciona los datos personales que corresponda a la categoría datos  bancarios adicionales.",
+    "options": [ { "id": "a", "text": "Firma electrónica, fotografía"}, { "id": "b", "text": "Contraseñas, huella digital"}, { "id": "c", "text": "Código de seguridad tarjeta, Fecha de vencimiento, Datos de banda magnética, Número de identificación personal (PIN)"}, { "id": "d", "text": "Firma autógrafa, fotografía"} ],
+    "answer": "c",
+    "value": 5,                 
+    "type":"question",
+    "level":"apprentice",
+    "version":"1.0"
+ },
+   {
+    "id": 45,
+    "text": "Un callcenter tiene una base de datos para ventas que contiene los siguientes datos personales: nombre, telefono celular y correo electrónico. Determine el valor de los datos personales en total de esta base. (Considera que NO se cumple con ningún principio de usuario)",
+    "options": [ { "id": "a", "text": "$ 50.00"}, { "id": "b", "text": "$ 300.00"}, { "id": "c", "text": "$ 60.00"}, { "id": "d", "text": "$ 250.00"} ],
+    "answer": "b",
+    "value": 10,                    
+    "type":"estimation",
+    "level":"apprentice",
+    "version":"1.0"
+ },
+   {
+    "id": 46,
+    "text": "Se define como el conjunto de principios, normas y procedimientos, de adopción voluntaria y cumplimiento vinculante, con la finalidad de regular el comportamiento de los responsables y encargados respecto a los tratamientos de datos personales que lleven a cabo.",
+    "options": [ { "id": "a", "text": "Esquema de Autorregulación Vinculante"}, { "id": "b", "text": "Esquema de Autonomía Vinculante"}, { "id": "c", "text": "Esquema de Autogestión Vinculante"}, { "id": "d", "text": "Esquema de Autoridad Vinculante"} ],
+    "answer": "a",
+    "value": 10,                    
+    "type":"question",
+    "level":"agent",
+    "version":"1.0"
+ },
+   {
+    "id": 47,
+    "text": "Con base en la LFPDPPP se define como la comunicación de datos realizada a persona distinta del responsable o encargado del tratamiento.",
+    "options": [ { "id": "a", "text": "Transportación"}, { "id": "b", "text": "Transferencia"}, { "id": "c", "text": "Remisión"}, { "id": "d", "text": "Envío"} ],
+    "answer": "b",
+    "value": 15,                    
+    "type":"question",
+    "level":"agent",
+    "version":"1.0"
+ },
+   {
+    "id": 48,
+    "text": "Artículo del Reglamento de la LFPDPPP que establece las acciones que debe considerar un responsable para la seguridad de los datos personales.",
+    "options": [ { "id": "a", "text": "Artículo 63"}, { "id": "b", "text": "Artículo 61"}, { "id": "c", "text": "Arículo 64"}, { "id": "d", "text": "Artículo 53"} ],
+    "answer": "b",
+    "value": 15,                    
+    "type":"question",
+    "level":"agent",
+    "version":"1.0"
+ },
+
+   {
+    "id": 49,
+    "text": "Base de datos que tiene por objeto registrar de manera gratuita la negativa del titular al tratamiento de sus datos personales.",
+    "options": [ { "id": "a", "text": "Listado de exclusión"}, { "id": "b", "text": "Lista de titulares bloqueados"}, { "id": "c", "text": "Lista derechos ARCO"}, { "id": "d", "text": "Lista de bloqueo"} ],
+    "answer": "a",
+    "value": 15,                    
+    "type":"question",
+    "level":"agent",
+    "version":"1.0"
+ },
+   {
+    "id": 50,
+    "text": "Se define como la comunicación de datos personales entre el responsable y el encargado, dentro o fuera del territorio mexicano",
+    "options": [ { "id": "a", "text": "Transportación"}, { "id": "b", "text": "Transferencia"}, { "id": "c", "text": "Remisión"}, { "id": "d", "text": "Envío"} ],
+    "answer": "c",
+    "value": 15,                    
+    "type":"question",
+    "level":"agent",
+    "version":"1.0"
+ }
+ 
+ 
+]

@@ -1,0 +1,55 @@
+<!-- 
+ * Description:Es la vista de la pantalla de Resultado de la estimación
+ * Author:Getsir
+ * Email:development@getsir.mx 
+-->
+<ion-view view-title="<img src='img/logo_resumen.png'>" class="results">
+
+  <ion-content  padding="true" >
+
+  
+    <h1 class="title animated fadeIn"><i class="fa fa-calculator"></i> <b>El valor de tus datos personales:</b></h1>
+    
+    <div class="total fadeInUp animated">
+    	<span>Tu estimación es de:</span>
+	    <strong>${{totalEstimate}}</strong>
+        <button class="button" ng-click="shareAnywhere()"><i class="fa fa-share-alt"></i> Compartir</button>
+    </div>
+    
+    <div class="list card animated slideInDown">
+          <div class="list-divider fadeInLeft animated estandar">
+          	<i class="fa fa-user-plus"></i>
+          </div>
+          <div class="item fadeInLeft animated estandar">
+           <i class="fa fa-male"></i> Total de datos estándar:<b>{{totalStandardObject.numDataEstandar}}</b><strong>${{totalStandardObject.totalEstandar}}</strong>
+          </div>
+          <div class="item fadeInLeft animated sensible">
+            <i class="fa fa-exclamation-circle"></i> Total de datos medios:<b>{{totalSensibleObject.numDataSensible}}</b><strong>${{totalSensibleObject.totalSensible}}</strong>
+          </div>
+          <div class="item fadeInLeft animated critico">
+           <i class="fa fa-exclamation-triangle"></i> Total de datos sensibles:<b>{{totalCriticalObject.numDataCriticos}}</b><strong>${{totalCriticalObject.totalCriticos}}</strong>
+          </div>
+	</div>
+    
+        
+     <!-- <ion-list>
+        <ion-item  collection-repeat="personalData in dataSelected">        
+           <span> {{personalData.name}} </span> 
+           <ion-option-button class="button-assertive icon ion-trash-a" ng-click="checkItem(personalData)"></ion-option-button>
+        </ion-item>
+      </ion-list> -->
+      
+
+	<ion-list class="fadeInRight animated riesgos">
+    	<div class="item-divider"><i class="fa fa-user-secret"></i> Posibles daños al titular</div>
+       <ion-item  collection-repeat="damage in damages" ng-click="showModalDamage(damage)">        
+           <span> {{damage.name}} </span> 
+        </ion-item>
+      </ion-list>
+	
+  </ion-content>
+  
+  <div class="bar bar-footer bar-balanced" ng-hide="!showBtnChallenge">
+     	<button class="button go-calc"  ng-click="goToChallenges()"><li class="fa fa-trophy"></li> Resolver el reto</button>
+    </div>  
+</ion-view>

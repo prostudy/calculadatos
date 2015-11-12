@@ -1,0 +1,24 @@
+<!-- 
+ * Description:Vista de la pantalla en donde se indica que hubo un cambio de nivel
+ * Author:Getsir
+ * Email:development@getsir.mx 
+ -->
+<ion-modal-view class="level">
+  <ion-header-bar>
+    <h1 class="title"><img src="img/logo_nivel.png"></h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="close()">Cerrar</button>
+    </div>
+  </ion-header-bar>
+ <ion-content class="padding">
+    <h1>{{currentLevel.title}}</h1>
+    <p ng-if="userScore > 0" class="tip"><i class="fa fa-trophy"></i>Score:{{userScore}}</p>
+    <p class="tip user">{{userRegister.nick}}  {{currentLevel.text}}</p>
+    <p>{{currentLevel.description}}</p>
+    <img src="img/{{currentLevel.img}}"/>
+  </ion-content>
+</ion-modal-view>
+    
+    
+    
+  

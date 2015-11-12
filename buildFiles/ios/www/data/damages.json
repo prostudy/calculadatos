@@ -1,0 +1,57 @@
+[
+  {
+  "id":1,
+  "name":"Molestia/Angustia",
+  "description":"Los persona malintencionada pueden utilizar los datos personales robados, para generarle angustia al titular por la difusión de rumores o decir cosas hirientes que puedan decirse.",
+  "img":"Ideas.png",
+  "tips":[{"tip":"1. Cuida tus datos personales y no los proporciones sin conocer las políticas de privacidad y medidas de seguridad con las cuales serán tratados."},{"tip":"2. Verifica previamente la información personal que compartes en medios digitiales."},{"tip":"3. Acepta en tus redes sociales solo a personas que conozcas y configura las medidas de seguridad y privacidad."}]
+  },
+{
+"id":2,
+"name":"Robo de Identidad",
+"description":"La persona maliciosa hace uso de la identidad del titular y en su nombre realiza transacciones ilegales que pueden ser desde el chantaje, la extorsión y otros tipos de fraude.",
+"img": "card.png",
+"tips":[{"tip":"1. Cuida tus datos personales y no los proporciones sin verificar que sea una fuente confiable."},{"tip":"2. Reporta cualquier actividad inusual que ocurra con tus datos personales."}, {"tip":"3. Reporta a tu banco inmediatamente si detectas cualquier cargo no autorizado."}]
+},
+
+{
+  "id":3,
+  "name":"Daño a la reputación",
+  "description":"La persona maliciosa pueden dañar la reputación del titular y en algunos ocasiones causar daños irreparables,  el titular afectado pueda en consecuencia ser rechazado por amigos, familiares, empleadores o asociaciones donde sea miembro.",
+  "img":"news.png",
+  "tips":[{"tip":"1. Previo a publicar cualquier información verifica que no pueda ser utilizada para dañar tu reputación."},{"tip":"2. Verifica periódicamente la configuración de seguridad de tus redes sociales."},{"tip":"3. No proporciones datos personales sin conocer los avisos o políticas de privacidad."}]
+  },
+  
+
+{
+"id":4,
+"name":"Invasión a la privacidad",
+"description":"Los datos personales que el titular no desearía fueran visto por otros, pueden ser expuestos al público por la persona maliciosa. La privacidad del titular ha sido comprometida.",
+"img":"Selecting.png",
+"tips":[{"tip":"1. Lee las políticas y avisos de privacidad de todos los sitios donde compartes datos personales."},{"tip":"2. Configura la seguridad y privacidad en tus redes sociales."}, {"tip":"3. No compartas datos personales que consideres privados o que puedan ponerte en riesgo."}]
+},
+
+ {
+  "id":5,
+  "name":"Perdidas financieras",
+  "description":"El titular afectado puede ser sujeto de extorsión, cuentas financieras comprometidas y transacciones no autorizadas. Afectación hacia su patrimonio.",
+  "img":"Monitoring.png",
+  "tips":[{"tip":"1. Cuida tu información financiera."},{"tip":"2. Verifica todos los sitios donde proporciones datos financieros."},{"tip":"3. Denuncia cualquier intento de fraude y notificalo a tu banco."},{"tip":"4. Cuando tus datos financieros hayan sido comprometidos notifica de forma inmediata a tu banco."}]
+  },
+{
+"id":6,
+"name":"Integridad física",
+"description":"La persona malintencionada mediante los datos personales que ha obtenido del titular podría, llevar a cabo acciones que puedan poner en riesgo la integridad física del titular (secuestro, lesiones, asesinato)",
+"img":"medical-box.png",
+"tips":[{"tip":"1. Verifica las configuraciones de privacidad de todas tus redes sociales para que solo sean visto por aquellas personas que tu autorices."},{"tip":"2.  No proporciones datos personales a fuentes no confiables."}, {"tip":"3. Cuida la información personal que publicas en tus redes sociales."}]
+},
+ 
+  
+  {
+  "id":7,
+  "name":"Fuga de seguridad",
+  "description":"Si el titular pone en riesgo sus datos personales, sin saberlo puede comprometer la seguridad de la empresa donde trabaja, ya que sus datos pueden ser utilizados como puerta de entrada a la empresa o ser el medio para vulnerar la seguridad de la organización.",
+  "img":"search-document.png",
+  "tips":[{"tip":"1. Conoce y cumple las políticas de seguridad y uso de redes sociales de tu organización."},{"tip":"2. No proporciones datos personales a desconocidos."},{"tip":"3. Previo a instalar cualquier aplicación o programa verifica que vengan de fuentes confiables."}]
+  }
+]
