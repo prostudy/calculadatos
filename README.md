@@ -118,5 +118,5 @@ El audio del video fue proporcionado por: Drops of H2O ( The Filtered Water Trea
 
 <a name="license" />
 #LICENSE
-Ionic is licensed under the MIT Open Source license. For more information, see the LICENSE file in this repository.
+CalculaDatos is licensed under the MIT Open Source license. For more information, see the LICENSE file in this repository.
 
