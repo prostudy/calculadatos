@@ -5,7 +5,7 @@ Es una aplicación que permite al usuario conocer a través de una estimación e
 
 #Tabla de contenidos
 
-[Créditos](.#Créditos)
+[Créditos](#creditos)
 
 
 
@@ -93,7 +93,7 @@ Podría mostrarse la siguiente advertencia, para lo cual solo hay que aceptar y 
 </a>
 * <a href="http://digitaldrummerj.me/Ionic-Setup-Windows/" target="_blank">IONIC - HOW TO SETUP ON WINDOWS</a>
 
-
+<a name="creditos" />
 #Créditos
 * Diseñador: UX/UI Ricardo Mares.
 * Ing. José Manuel Pérez
