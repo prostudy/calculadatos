@@ -58,8 +58,8 @@ El audio del video:
 
 <a name="equipo" />
 #Equipo de trabajo
-M.A. Miriam J. Padilla Espinosa<br/>
-Ing. Oscar J. Gascon Busio (PMP)®
+* <a href="https://mx.linkedin.com/in/mba-miriam-j-padilla-espinosa-350b2050" target="_blank">M.A. Miriam J. Padilla Espinosa</a>
+* <a href="https://www.linkedin.com/in/josafatbusio" target="_blank">Ing. Oscar J. Gascon Busio (PMP)®</a>
 
 <a name="instalacion" />
 #Instrucciones de instalación rápida
