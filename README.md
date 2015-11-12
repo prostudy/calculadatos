@@ -5,20 +5,14 @@ Es una aplicación que permite al usuario conocer a través de una estimación e
 
 #Tabla de contenidos
 * [Características](#caracteristicas)
-
 * [Siguientes versiones](#versiones)
-
 * [Recursos](#recursos)
-
 * [Equipo de trabajo](#equipo)
-
 * [Instrucciones de instalación rápida](#instalacion)
-
 * [Screenshots](#screenshots)
-
 * [Enlaces de referencia](#enlaces)
-
 * [Créditos](#creditos)
+* [License](#license)
 
 
 <a name="caracteristicas" />
@@ -122,5 +116,7 @@ Staff:
 
 El audio del video fue proporcionado por: Drops of H2O ( The Filtered Water Treatment ) by J.Lang (c) 2012 Licensed under a Creative Commons Attribution (3.0) license. http://ccmixter.org/files/djlang59/37792 Ft: Airtone
 
-
+<a name="license" />
+#LICENSE
+Ionic is licensed under the MIT Open Source license. For more information, see the LICENSE file in this repository.
 
