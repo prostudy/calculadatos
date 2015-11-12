@@ -4,11 +4,24 @@
 Es una aplicación que permite al usuario conocer a través de una estimación el valor en pesos de los datos personales, para obtener este resultado se tomo como base la fórmula propuesta por el INAI con algunas modificaciones con el objeto de considerar una clasificación más específica basada en la sensibilidad de los datos personales. 
 
 #Tabla de contenidos
+* [Características](#caracteristicas)
 
-[Créditos](#creditos)
+* [Siguientes versiones](#versiones)
+
+* [Recursos](#recursos)
+
+* [Equipo de trabajo](#equipo)
+
+* [Instrucciones de instalación rápida](#instalacion)
+
+* [Screenshots](#screenshots)
+
+* [Enlaces de referencia](#enlaces)
+
+* [Créditos](#creditos)
 
 
-
+<a name="caracteristicas" />
 #Características
 Cuando el usuario realiza un cálculo además de la estimación en pesos, obtendrá un listado con los posibles daños que pudiera sufrir en caso de alguna vulneración, relacionada con los tipos de datos seleccionados previamente y asociados a estos daños se le proporcionará un conjunto de tips para mejorar la forma en que proteje los datos personales. El resultado obtenido del cálculo tiene la opción para poder ser compartido en las redes sociales o medios que determine el usuario como una forma de difusión para la aplicación.
 
@@ -27,9 +40,11 @@ Estos podrán ser consultados en todo momento por el usuario en el menú de Perf
 
 De forma adicional la aplicación cuenta con una sección de Conoce+ donde el usuario podrá consultar diferentes conceptos y definiciones importantes en materia de datos personales, esta base de datos contiene 36 elementos.
 
+<a name="versiones" />
 #Siguientes versiones
 Se podría mejorar en un futuro para reforzar en el titular la protección de los datos personales, mediante la estimación del riesgo, considerado que tan expuesto esta el titular con relacion al tipo de datos personales que proporciona (valor en $) y los lugares donde los comparte o deposita, esto permitirá generar mayor conciencia para que los titulares identifiquen todos los posibles lugares donde se encuentran sus datos y fomentará el uso de sus derechos ARCO para reducir su nivel de exposición.
 
+<a name="recursos" />
 #Recursos
 > ##### Página oficial de la aplicación: <a href="http://calculadatos.getsir.mx/" target="_blank">CalculaDatos</a>
 
@@ -41,11 +56,12 @@ El audio del video:
 #####  Manual para el desarrollador: <a href="https://github.com/prostudy/calculadatos-getsir/wiki/Manual-para-el-desarrollador" target="_blank"> Manual para el desarrollador</a>
 ##### *Liga alernativa con toda la documentación en <a href="http://1drv.ms/1HKed82" target="_blank">OneDrive </a>
 
+<a name="equipo" />
 #Equipo de trabajo
 M.A. Miriam J. Padilla Espinosa<br/>
 Ing. Oscar J. Gascon Busio (PMP)®
 
-
+<a name="instalacion" />
 #Instrucciones de instalación rápida
 ###### Este proceso es únicamente para pruebas.
 Instalar un archivo apk sobre un dispositivo con sistema operativo Android 4.2+.
@@ -70,6 +86,7 @@ Podría mostrarse la siguiente advertencia, para lo cual solo hay que aceptar y 
 <img src="http://calculadatos.getsir.mx/descargas/images/install2.png" width="20%"/>
 <img src="http://calculadatos.getsir.mx/descargas/images/install3.png" width="20%"/>
 
+<a name="screenshots" />
 ###Screenshots
 
 <img src="http://calculadatos.getsir.mx/descargas/images/Pantalla de la Calculadora.png" width="30%"/>
@@ -81,7 +98,7 @@ Podría mostrarse la siguiente advertencia, para lo cual solo hay que aceptar y 
 <img src="http://calculadatos.getsir.mx/descargas/images/Pantalla de Conoce +.png" width="30%"/>
 <img src="http://calculadatos.getsir.mx/descargas/images/Pantallas de configuracion.png" width="30%"/>
 
-
+<a name="enlaces" />
 #Enlaces de referencia
 
 * <a href="http://ionicframework.com/" target="_blank">Página inicial de Ionic</a>
