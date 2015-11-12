@@ -1,0 +1,23 @@
+<!-- 
+ * Description:Vista que muestra un listado de terminos con sus definiciones.
+ * Author:Getsir
+ * Email:development@getsir.mx 
+ -->
+<ion-view view-title="<img src='img/logo.png'>" class="conoce">
+  <ion-content>
+  <div class="list list-inset">
+        <label class="item item-input">
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="text" placeholder="Buscar" ng-model="searchString">
+        </label>
+      </div>
+          	<div class="card" ng-repeat="item in concepts  | filter:searchString | orderBy:'concept'">
+            	<div class="item">
+				    <h2>{{item.concept}}</h2>
+                </div>
+            	<div class="item-body">
+				    <p>{{item.definition}}</p>
+                </div>
+            </div>
+  </ion-content>
+</ion-view>

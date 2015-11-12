@@ -1,0 +1,86 @@
+<!-- 
+ * Description:Es la vista de la pantalla de principios de usuario, muestra 4 preguntas
+ * Author:Getsir
+ * Email:development@getsir.mx 
+-->
+<ion-view title="{{myTitle}}">
+
+  <ion-content class="padding has-footer principios">
+  
+    <h2 class="title"><i class="fa fa-balance-scale"></i><b> Principios de usuario</b></h2>
+    <div class="list card">
+      <div class="item">
+        <p><i class="fa fa-caret-right"></i> Transparencia</p>
+      </div>
+      <ul class="item item-body">
+        <li class="item item-toggle">
+          ¿Considera que el responsable (persona o empresa) a quien proporcionas tus datos personales es claro respecto al tratamiento que les dará?
+         <label class="toggle toggle-assertive" >
+           <input type="checkbox" ng-model="question1.checked" ng-change="questionChange(question1)">
+           <div class="track">
+             <div class="handle"></div>
+           </div>
+         </label>
+          </li>
+      </ul>
+	</div>
+    
+    <div class="list card">
+      <div class="item">
+        <p><i class="fa fa-caret-right"></i> Confianza</p>
+      </div>
+      <ul class="item item-body">
+        <li class="item item-toggle">
+         ¿Al proporcionar tus datos personales para recibir un producto o servicio, el responsable te inspira confianza?
+         <label class="toggle toggle-assertive">
+           <input type="checkbox" ng-model="question2.checked" ng-change="questionChange(question2)">
+           <div class="track">
+             <div class="handle"></div>
+           </div>
+         </label>
+          </li>
+      </ul>
+	</div>
+    
+    <div class="list card">
+      <div class="item">
+        <p><i class="fa fa-caret-right"></i> Control</p>
+      </div>
+      <ul class="item item-body">
+        <li class="item item-toggle">
+          ¿Sientes que el responsable te proporciona medios suficientes para acceder, rectificar, cancelar u oponerte al tratamiento de los datos personales que le proporcionaste?
+         <label class="toggle toggle-assertive">
+           <input type="checkbox" ng-model="question3.checked" ng-change="questionChange(question3)">
+           <div class="track">
+             <div class="handle"></div>
+           </div>
+         </label>
+          </li>
+      </ul>
+	</div>
+    
+    <div class="list card">
+      <div class="item">
+        <p><i class="fa fa-caret-right"></i> Valoración</p>
+      </div>
+      <ul class="item item-body">
+        <li class="item item-toggle">
+          ¿Percibes que los datos personales que proporcionaste tienen un valor adicional para el responsable, de modo que pueden ser explotados posteriormente?
+         <label class="toggle toggle-assertive">
+           <input type="checkbox" ng-model="question4.checked" ng-change="questionChange(question4)">
+           <div class="track">
+             <div class="handle"></div>
+           </div>
+         </label>
+          </li>
+      </ul>
+	</div>
+    
+     
+  </ion-content>
+  
+  
+   <div class="bar bar-footer bar-balanced">
+      <div class="button go-calc" ng-click="goToSummary()"><i class="fa fa-calculator"></i> Calcular <i class="fa fa-angle-double-right"></i></div>
+    </div>
+</ion-view>

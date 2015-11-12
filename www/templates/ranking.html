@@ -1,0 +1,45 @@
+<!-- 
+ * Description:Vista de la pantalla de Perfil de usuario
+ * Author:Getsir
+ * Email:development@getsir.mx 
+ -->
+<ion-view view-title="<img src='img/logo_perfil.png'>" class="perfil">
+    
+  <ion-content class="padding">
+    <div class="user_top">
+    	<i class="fa fa-user"></i>
+    </div>
+    
+    <div class="list card">
+      <div class="item item-icon-left">
+      	<i class="fa fa-user icon"></i>
+        <p>Nickname</p>
+        <h2 g-if="user.nick.length>0">{{user.nick}}</h2>
+      </div>
+      <div class="item item-icon-left">
+      <i class="ion-podium icon"></i>
+        <p>Score:</p>
+        <h2 ng-if="userScore > 0">{{userScore}}</h2>
+      </div>
+      <div class="item item-icon-left">
+      	<i class="fa fa-trophy icon"></i>
+        <p>Numero de retos resueltos:</p>
+        <h2 ng-if="challengesUser.length>0">{{challengesUser.length}}</h2>
+      </div>
+      <div class="item">
+      	<div class="card list">
+          <div class="item">
+            <h2>{{currentLevel.title}}</h2>
+		    <p>{{currentLevel.text}}</p>
+          </div>
+          <div class="item item-image">
+             <img src="img/{{currentLevel.img}}"/>
+          </div>
+		</div>
+      </div>
+	</div>
+    
+  </ion-content>
+  
+</ion-view>
+

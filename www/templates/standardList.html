@@ -1,0 +1,44 @@
+<!-- 
+ * Description:Vista de la pantalla de la calculadora
+ * Author:Getsir
+ * Email:development@getsir.mx 
+ -->
+<ion-view title="{{myTitle}}" left-buttons="leftButtons" right-buttons="rightButtons" hide-back-button="true" class="bubble-background">
+	
+  	<ion-content class="has-footer estandar" >
+  	<h2 class="title"><b>{{stepMessage}}</b></h2>
+  
+      <div class="button-bar calc">
+        <!-- <a class="button button-positive">1</a> -->
+        <a class="button estandar {{standarActivated}}" ng-click="showStandardDataList()"><i class="fa fa-male"></i> Estándar</a>
+        <a class="button sensible {{sensibleActivated}}" ng-click="showSensibleDataList()"><i class="fa fa-exclamation-circle"></i> Medios</a>
+        <a class="button critico {{criticalActivated}}" ng-click="showCriticalDataList()"><i class="fa fa-exclamation-triangle"></i> Sensibles</a>
+      </div>      
+
+      <div class="list list-inset calcu-search">
+        <label class="item item-input">
+         
+          <i class="icon ion-search placeholder-icon"></i>
+          <input type="text" placeholder="Buscar un dato..." ng-model="searchParams.searchString">
+          <form name="search_form" ng-submit="resetSearch()">
+          <button class="button-clear icon ion-close-circled"></button>
+          </form>
+        </label>
+      </div>
+
+       <ion-list class="{{colorData}} datos">
+
+        <ion-item  collection-repeat="personalData in personalDataItems | filter:searchParams.searchString | orderBy:'name'" ng-click="checkItem(personalData)" on-hold="onHoldItem(personalData)">        
+           <span class="{{personalData.check}}"><i ng-if="personalData.check"></i> {{personalData.name}} </span> 
+
+        </ion-item>
+      </ion-list>
+  </ion-content>
+  
+  	<div class="bar bar-footer bar-balanced">
+  		<button class="button" ng-click="initData()"><i class="fa fa-refresh"></i> Borrar selección</button>
+  		<button ng-if="challengeMode" class="button" ng-click="goToPrincipios()" ng-disabled="disabledCalc"><i class="fa fa-angle-double-right"></i> Continuar Reto</button>
+        <button ng-if="!challengeMode" class="button" ng-click="goToPrincipios()" ng-disabled="disabledCalc"><i class="fa fa-calculator"></i> Calcular</button>
+    </div>
+     
+</ion-view>

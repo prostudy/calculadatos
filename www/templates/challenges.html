@@ -1,0 +1,75 @@
+<!-- 
+ * Description:Vista de la pantalla de RETOS
+ * En esta pantalla se muestra la opción de ingresar un alias, en caso de no tener uno registrado.
+ * Cuando ya se tiene un alias, se muestra el siguiente reto disponible.
+ * Por ultimo se muestra un un mensaje cuando ya no hay mas retos disponibles.
+ * Author:Getsir
+ * Email:development@getsir.mx 
+ -->
+<ion-view view-title="{{myTitle}}">
+
+  <ion-content class="challenges" overflow-scroll="true">
+   
+   <!-- Mostrar el campo de nickname en caso de no tener registros en la tabla users -->
+	<div ng-if="!userRegister" class="user-register" ng-hide="userRegisterHide">
+  	 <!--input  type="text" placeholder="Ingresa nick" ng-model="nickname">
+    {{errorNick}}
+   	<button class="button button-outline button-positive" ng-click="registerNickName(nickname)">Regisrar</button-->
+    	<div class="padding top">
+        	<i class="fa fa-trophy"></i>
+        	<p>Ingresa tu alias.</p>
+        	<p>Con él empezarás a realizar los retos que el INAI tiene para ti.</p>
+        </div>
+        <div class="list list-inset">
+          <label class="item item-input">
+            <input type="text" placeholder="Ingresa un nick name" ng-model="user.nick">
+          </label>
+        </div>
+       <div class="padding error">{{errorNick}}</div>
+        <div class="padding">
+            <button class="button button-block"  ng-click="registerNickName(user.nick)"><i class="fa fa-user"></i> Guardar</button>
+        </div>
+   </div>
+   
+   
+   
+   <!-- Muestra un reto solo si ya se tiene un nickname registrado -->
+	<div ng-if="userRegister && !completeAllQuestion">
+    
+    	<div class="padding">
+        
+    	<h2 class="title"><strong>{{userRegister.nick}}</strong><span  ng-show="userScore"> Tu puntuación es de: <em>{{userScore}} puntos</em></span></h2>
+        
+        <div class="list question card {{correctResponseCard}}">
+          <div class="item">
+            <p><i class="fa fa-trophy"></i></p>
+          </div>
+          <div class="item-divider">
+            <p> El valor de esta pregunta es de:{{challenge.value}} puntos</p>
+          </div>
+          <div class="item item-body">
+              {{challenge.id}}.- {{challenge.text}}
+          </div>
+            <div class="item" ng-repeat="option in options">
+                <button ng-if="option.id == challenge.answer" class="button {{correctResponse}}" ng-disabled="processing" ng-click="optionSelected(option)" ><b>{{option.id}})</b> {{option.text}}</button>
+                <button ng-if="option.id != challenge.answer" class="button" ng-click="optionSelected(option)" ng-disabled="processing"><b>{{option.id}})</b> {{option.text}}</button>
+            </div>
+            <button class="button go-calc"  ng-click="showCalculator()" ng-show="challenge.type=='estimation' || challenge.type=='reverse'" ng-disabled="processing"><i class="fa fa-calculator"></i> Usar calculadora</button>
+            <div class="item"><button class="button button-outline button-positive" ng-click="restartChallenge()" ng-show="btnRestart==true">Reintentar</button><button class="button button-outline button-positive" ng-click="nextChallenge()" ng-disabled="btNextChallenge!=true">Siguiente reto <i class="fa fa-angle-right"></i></button></div>
+        </div>
+		
+    	
+		</div><!-- padding -->
+  	</div>
+  	
+  	<!-- Muestra la pantalla de retos pero indicando que ya no existen mas preguntas disponibles -->
+  	<div ng-if="completeAllQuestion" class="level">
+	  	  <h1>{{currentLevel.title}}</h1>
+    <p ng-if="userScore > 0" class="tip"><i class="fa fa-trophy"></i>Score:{{userScore}}</p>
+    <p class="tip user">{{userRegister.nick}}  {{currentLevel.text}}</p>
+    <p>{{currentLevel.description}}</p>
+    <img src="img/{{currentLevel.img}}"/>
+  	</div>
+    </ion-content>
+
+</ion-view>
