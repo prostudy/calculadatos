@@ -4,9 +4,9 @@
 Es una aplicación que permite al usuario conocer a través de una estimación el valor en pesos de los datos personales, para obtener este resultado se tomo como base la fórmula propuesta por el INAI con algunas modificaciones con el objeto de considerar una clasificación más específica basada en la sensibilidad de los datos personales. 
 
 #Tabla de contenidos
-[Características](Características)
-[Siguientes versiones](Siguientes versiones)
-[Recursos](Recursos)
+
+[Créditos](.#Créditos)
+
 
 
 #Características
