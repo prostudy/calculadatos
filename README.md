@@ -107,7 +107,7 @@ Podría mostrarse la siguiente advertencia, para lo cual solo hay que aceptar y 
 
 <a name="creditos" />
 ##Créditos
-* Diseñador: UX/UI Ricardo Mares.
+* <a href="https://www.linkedin.com/in/ricardo-mares-gayt%C3%A1n-41027039" target="_blank">Diseñador: UX/UI Ricardo Mares.</a>
 * Ing. José Manuel Pérez
 
 Staff:
