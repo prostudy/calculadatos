@@ -47,8 +47,8 @@ Se podría mejorar en un futuro para reforzar en el titular la protección de lo
 El audio del video:
  Drops of H2O ( The Filtered Water Treatment ) by J.Lang (c) 2012 Licensed under a Creative Commons Attribution (3.0) license. http://ccmixter.org/files/djlang59/37792 Ft: Airtone
 #####  Presentación CalculaDatos: <a href="http://calculadatos.getsir.mx/descargas/PresentacionFase2.pdf" target="_blank">Presentación</a>
-#####  Manual usuario: <a href="https://github.com/prostudy/calculadatos-getsir/wiki/Manual-de-usuario" target="_blank"> Manual de usuario</a>
-#####  Manual para el desarrollador: <a href="https://github.com/prostudy/calculadatos-getsir/wiki/Manual-para-el-desarrollador" target="_blank"> Manual para el desarrollador</a>
+#####  Manual usuario: <a href="https://github.com/prostudy/calculadatos/wiki/Manual-de-usuario" target="_blank"> Manual de usuario</a>
+#####  Manual para el desarrollador: <a href="https://github.com/prostudy/calculadatos/wiki/Manual-para-el-desarrollador" target="_blank"> Manual para el desarrollador</a>
 ##### *Liga alernativa con toda la documentación en <a href="http://1drv.ms/1HKed82" target="_blank">OneDrive </a>
 
 <a name="equipo" />
