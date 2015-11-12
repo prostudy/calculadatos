@@ -81,6 +81,12 @@ Podría mostrarse la siguiente advertencia, para lo cual solo hay que aceptar y 
 <img src="http://calculadatos.getsir.mx/descargas/images/install2.png" width="20%"/>
 <img src="http://calculadatos.getsir.mx/descargas/images/install3.png" width="20%"/>
 
+####Instalación avanzada
+Para **Ejecutar y validar el funcionamiento del proyecto** con mayor detalle consultar la <a href="https://github.com/prostudy/calculadatos/wiki/Manual-para-el-desarrollador" target="_blank">Página del desarrollador</a>
+
+
+<hr>
+
 <a name="screenshots" />
 ##Screenshots
 
