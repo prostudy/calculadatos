@@ -41,15 +41,28 @@ Se podría mejorar en un futuro para reforzar en el titular la protección de lo
 
 <a name="recursos" />
 ##Recursos
-> ##### Página oficial de la aplicación: <a href="http://calculadatos.getsir.mx/" target="_blank">CalculaDatos</a>
+En los siguientes enlaces, se puede consultar toda la documentación generada durante el proyecto.
+> ##### 1.- Página oficial de la aplicación: <a href="http://calculadatos.getsir.mx/" target="_blank">CalculaDatos</a>
 
-> #####  Video que muestra el funcionamiento : <a href="http://calculadatos.getsir.mx/descargas/CalculaDatos-Video.mp4" target="_blank">Video (4:09 min.)</a>
-El audio del video:
- Drops of H2O ( The Filtered Water Treatment ) by J.Lang (c) 2012 Licensed under a Creative Commons Attribution (3.0) license. http://ccmixter.org/files/djlang59/37792 Ft: Airtone
-#####  Presentación CalculaDatos: <a href="http://calculadatos.getsir.mx/descargas/PresentacionFase2.pdf" target="_blank">Presentación</a>
-#####  Manual usuario: <a href="https://github.com/prostudy/calculadatos/wiki/Manual-de-usuario" target="_blank"> Manual de usuario</a>
-#####  Manual para el desarrollador: <a href="https://github.com/prostudy/calculadatos/wiki/Manual-para-el-desarrollador" target="_blank"> Manual para el desarrollador</a>
-##### *Liga alernativa con toda la documentación en <a href="http://1drv.ms/1HKed82" target="_blank">OneDrive </a>
+> ##### 2.- Una síntesis que describe la solución<a href="http://calculadatos.getsir.mx/descargas/Sintesis_Calculadatos.pdf" target="_blank"> (PDF).</a>
+
+> ##### 3.- Presentación<a href="http://calculadatos.getsir.mx/descargas/PresentacionFase2.pdf" target="_blank"> (PDF).</a>
+
+> ##### 4.- Manual de usuario <a href="http://calculadatos.getsir.mx/descargas/ManualdelUsuario-CalculaDatos.pdf" target="_blank"> (PDF).</a>
+
+> ##### 5.- Manual del desarrollador <a href="http://calculadatos.getsir.mx/descargas/ManualdelDesarrollador.pdf" target="_blank"> (PDF).</a>
+
+> ##### 6.- Video de muestra <a href="http://calculadatos.getsir.mx/descargas/CalculaDatos-Video.mp4" target="_blank"> Video (4:09 min.).</a>
+
+> ##### 7.- Archivos plataforma iOS <a href="http://calculadatos.getsir.mx/descargas/ios.zip" target="_blank"> .zip</a>
+
+> ##### 8.- Archivo .apk para instalarse plataformas Android  <a href="http://calculadatos.getsir.mx/descargas/calculadatos.apk" target="_blank"> .apk</a>
+
+> ##### 9.- Documentación <a href="https://github.com/prostudy/calculadatos/wiki" target="_blank">Wiki</a>
+
+> ##### *REPOSITORIO ALTERNATIVO con toda la documentación en <a href="http://1drv.ms/1HKed82" target="_blank">OneDrive </a>
+
+
 
 <a name="equipo" />
 ##Equipo de trabajo
