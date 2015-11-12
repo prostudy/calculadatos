@@ -127,7 +127,8 @@ Para **Ejecutar y validar el funcionamiento del proyecto** con mayor detalle con
 <a name="creditos" />
 ##Con apoyo de
 * <a href="https://www.linkedin.com/in/ricardo-mares-gayt%C3%A1n-41027039" target="_blank">Diseñador: UX/UI Ricardo Mares.</a>
-* Ing. José Manuel Pérez
+* Ing. José Manuel Pérez.
+* Katia Irais Morales Luque.
 
 
 El audio del video fue proporcionado por: Drops of H2O ( The Filtered Water Treatment ) by J.Lang (c) 2012 Licensed under a Creative Commons Attribution (3.0) license. http://ccmixter.org/files/djlang59/37792 Ft: Airtone
