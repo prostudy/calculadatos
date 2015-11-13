@@ -37,7 +37,7 @@ De forma adicional la aplicación cuenta con una sección de Conoce+ donde el us
 
 <a name="versiones" />
 ##Siguientes versiones
-Se podría mejorar en un futuro para reforzar en el titular la protección de los datos personales, mediante la estimación del riesgo, considerado que tan expuesto esta el titular con relacion al tipo de datos personales que proporciona (valor en $) y los lugares donde los comparte o deposita, esto permitirá generar mayor conciencia para que los titulares identifiquen todos los posibles lugares donde se encuentran sus datos y fomentará el uso de sus derechos ARCO para reducir su nivel de exposición.
+CalculaDatos es una aplicación que en versiones siguientes, puede reforzar en el titular la concientización sobre la protección de los datos personales, mediante la estimación del riesgo, considerado que tan expuesto esta el titular con relacion al tipo de datos personales que proporciona (valor en $) y los lugares donde los comparte o deposita, esto permitirá generar mayor conciencia para que los titulares identifiquen todos los posibles lugares donde se encuentran sus datos y fomentará el uso de sus derechos ARCO para reducir su nivel de exposición.
 
 <a name="recursos" />
 ##Recursos
