@@ -60,7 +60,6 @@ En los siguientes enlaces, se puede consultar toda la documentación generada du
 
 > ##### 9.- Documentación <a href="https://github.com/prostudy/calculadatos/wiki" target="_blank">Wiki</a>
 
-> ##### *REPOSITORIO ALTERNATIVO con toda la documentación en <a href="http://1drv.ms/1HKed82" target="_blank">OneDrive </a>
 
 
 
